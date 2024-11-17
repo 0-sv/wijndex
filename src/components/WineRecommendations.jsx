@@ -57,13 +57,6 @@ export default function WineRecommendations() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Top 10 Recommended Wines</h1>
-          <p className="text-gray-600">Ranked using a weighted scoring system:</p>
-          <div className="mt-2 text-sm text-gray-500 space-y-1">
-            <p>• User Rating (30%)</p>
-            <p>• Number of User Ratings (20%)</p>
-            <p>• Critic Score (35%)</p>
-            <p>• Number of Critic Reviews (15%)</p>
-          </div>
         </div>
 
         <div className="space-y-4">
