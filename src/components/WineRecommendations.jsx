@@ -6,7 +6,7 @@ export default function WineRecommendations() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [showUnder10, setShowUnder10] = useState(false);
-  const [showRedWines, setShowRedWines] = useState(false);
+  const [wineType, setWineType] = useState('all'); // 'all', 'red', 'white'
 
   useEffect(() => {
     fetch(import.meta.env.DEV 
@@ -61,14 +61,18 @@ export default function WineRecommendations() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-4 flex justify-end gap-2">
           <button
-            onClick={() => setShowRedWines(!showRedWines)}
+            onClick={() => {
+              setWineType(wineType === 'all' ? 'red' : wineType === 'red' ? 'white' : 'all');
+            }}
             className={`px-4 py-2 rounded-lg transition-colors ${
-              showRedWines
+              wineType === 'red'
                 ? 'bg-red-600 text-white hover:bg-red-700'
+                : wineType === 'white'
+                ? 'bg-yellow-600 text-white hover:bg-yellow-700'
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
             }`}
           >
-            {showRedWines ? '🍷 Show all wines' : '🍷 Red wines'}
+            {wineType === 'all' ? '🍷 Filter by type' : wineType === 'red' ? '🍷 Red wines' : '🥂 White wines'}
           </button>
           <button
             onClick={() => setShowUnder10(!showUnder10)}
@@ -83,7 +87,14 @@ export default function WineRecommendations() {
         </div>
         <div className="space-y-4">
           {wines
-            .filter((wine) => (!showUnder10 || parseFloat(wine.price) < 10) && (!showRedWines || wine.style.toLowerCase().includes('red')))
+            .filter((wine) => {
+              const priceCondition = !showUnder10 || parseFloat(wine.price) < 10;
+              const typeCondition = 
+                wineType === 'all' ? true :
+                wineType === 'red' ? wine.style.toLowerCase().includes('red') :
+                wine.style.toLowerCase().includes('white');
+              return priceCondition && typeCondition;
+            })
             .slice(0, 10)
             .map((wine, index) => (
             <div
