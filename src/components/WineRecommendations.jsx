@@ -5,6 +5,7 @@ export default function WineRecommendations() {
   const [wines, setWines] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [showUnder10, setShowUnder10] = useState(false);
 
   useEffect(() => {
     fetch(import.meta.env.DEV 
@@ -57,8 +58,22 @@ export default function WineRecommendations() {
   return (
     <div className="py-4 sm:py-8 px-2 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
+        <div className="mb-4 flex justify-end">
+          <button
+            onClick={() => setShowUnder10(!showUnder10)}
+            className={`px-4 py-2 rounded-lg transition-colors ${
+              showUnder10
+                ? 'bg-blue-600 text-white hover:bg-blue-700'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`}
+          >
+            {showUnder10 ? '🍷 Show all wines' : '🍷 Under €10'}
+          </button>
+        </div>
         <div className="space-y-4">
-          {wines.map((wine, index) => (
+          {wines
+            .filter((wine) => !showUnder10 || parseFloat(wine.price) < 10)
+            .map((wine, index) => (
             <div
               key={wine.productUrl}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 sm:p-6 transition-transform hover:scale-[1.01]"
