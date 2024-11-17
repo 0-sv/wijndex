@@ -36,7 +36,8 @@ function App() {
   return (
     <div className="w-full min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
       <nav className="w-full bg-white dark:bg-gray-800 shadow-md">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex justify-end">
+        <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+          <h1 className="text-2xl font-bold text-gray-800 dark:text-white">DruifDuif</h1>
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="px-4 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
