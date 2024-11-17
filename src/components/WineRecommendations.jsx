@@ -6,6 +6,7 @@ export default function WineRecommendations() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [showUnder10, setShowUnder10] = useState(false);
+  const [showRedWines, setShowRedWines] = useState(false);
 
   useEffect(() => {
     fetch(import.meta.env.DEV 
@@ -58,7 +59,17 @@ export default function WineRecommendations() {
   return (
     <div className="py-4 sm:py-8 px-2 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-4 flex justify-end">
+        <div className="mb-4 flex justify-end gap-2">
+          <button
+            onClick={() => setShowRedWines(!showRedWines)}
+            className={`px-4 py-2 rounded-lg transition-colors ${
+              showRedWines
+                ? 'bg-red-600 text-white hover:bg-red-700'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`}
+          >
+            {showRedWines ? '🍷 Show all wines' : '🍷 Red wines'}
+          </button>
           <button
             onClick={() => setShowUnder10(!showUnder10)}
             className={`px-4 py-2 rounded-lg transition-colors ${
@@ -72,7 +83,7 @@ export default function WineRecommendations() {
         </div>
         <div className="space-y-4">
           {wines
-            .filter((wine) => !showUnder10 || parseFloat(wine.price) < 10)
+            .filter((wine) => (!showUnder10 || parseFloat(wine.price) < 10) && (!showRedWines || wine.style.toLowerCase().includes('red')))
             .slice(0, 10)
             .map((wine, index) => (
             <div
