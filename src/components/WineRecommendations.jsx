@@ -21,9 +21,16 @@ export default function WineRecommendations({ showUnder10, wineType }) {
         const processedWines = validWines.map((wine) => {
           // Normalize scores to 0-1 range and apply weights
           const userScore = (wine.userRating / 5) * 0.3; // 30% weight
-          const userCountScore = (Math.min(wine.amountOfUserRatings, 100) / 100) * 0.2; // 20% weight
-          const criticScore = (wine.criticScore / 100) * 0.35; // 35% weight
-          const criticCountScore = (Math.min(wine.amountOfCriticReviews || 0, 10) / 10) * 0.15; // 15% weight
+          
+          // Logarithmic scaling for user ratings (base 1000)
+          const userCountLog = Math.log(wine.amountOfUserRatings + 1) / Math.log(1000);
+          const userCountScore = Math.min(userCountLog, 1) * 0.25; // 25% weight
+          
+          const criticScore = (wine.criticScore / 100) * 0.3; // 30% weight
+          
+          // Logarithmic scaling for critic reviews (base 100)
+          const criticCountLog = Math.log((wine.amountOfCriticReviews || 0) + 1) / Math.log(100);
+          const criticCountScore = Math.min(criticCountLog, 1) * 0.15; // 15% weight
 
           const totalScore = (userScore + userCountScore + criticScore + criticCountScore) * 100;
 
