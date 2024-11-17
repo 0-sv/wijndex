@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ExternalLink, Star, Users, Award, ThumbsUp } from 'lucide-react';
+import { ExternalLink, Star, Award } from 'lucide-react';
 
 export default function WineRecommendations() {
   const [wines, setWines] = useState([]);
