@@ -34,8 +34,8 @@ export default function WineRecommendations() {
           };
         });
 
-        // Sort by total score and get top 10
-        const sortedWines = processedWines.sort((a, b) => b.totalScore - a.totalScore).slice(0, 10);
+        // Sort by total score
+        const sortedWines = processedWines.sort((a, b) => b.totalScore - a.totalScore);
 
         setWines(sortedWines);
         setLoading(false);
@@ -73,6 +73,7 @@ export default function WineRecommendations() {
         <div className="space-y-4">
           {wines
             .filter((wine) => !showUnder10 || parseFloat(wine.price) < 10)
+            .slice(0, 10)
             .map((wine, index) => (
             <div
               key={wine.productUrl}
