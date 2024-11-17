@@ -62,9 +62,9 @@ export default function WineRecommendations({ showUnder10, wineType }) {
   if (error) return <div className="text-red-500 text-center p-4">{error}</div>;
 
   return (
-    <div className="py-4 sm:py-8 px-2 sm:px-6 lg:px-8">
+    <div className="py-2 sm:py-8 px-1 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="space-y-4">
+        <div className="space-y-2 sm:space-y-4">
           {wines
             .filter((wine) => {
               const priceCondition = !showUnder10 || parseFloat(wine.price) < 10;
@@ -78,14 +78,14 @@ export default function WineRecommendations({ showUnder10, wineType }) {
             .map((wine, index) => (
             <div
               key={wine.productUrl}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 sm:p-6 transition-transform hover:scale-[1.01]"
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 sm:p-6 transition-transform hover:scale-[1.01]"
             >
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
                 <div className="flex-shrink-0">
                   <img
                     src={wine.imgSrc}
                     alt={wine.productUrl.split('/').pop()}
-                    className="w-24 sm:w-32 h-24 sm:h-32 object-contain rounded"
+                    className="w-20 sm:w-32 h-20 sm:h-32 object-contain rounded"
                   />
                 </div>
 
@@ -95,51 +95,51 @@ export default function WineRecommendations({ showUnder10, wineType }) {
                       <span className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs font-semibold px-2.5 py-0.5 rounded">
                         #{index + 1}
                       </span>
-                      <h2 className="text-xl font-semibold mt-1">
+                      <h2 className="text-base sm:text-xl font-semibold mt-1">
                         {wine.productUrl.split('/').pop().split('-').join(' ').toUpperCase()}
                       </h2>
                     </div>
                     <div className="text-2xl font-bold text-blue-600">{wine.totalScore}</div>
                   </div>
 
-                  <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4">
-                    <div className="flex items-center gap-2 text-sm">
+                  <div className="mt-2 grid grid-cols-2 gap-1 sm:gap-4">
+                    <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm">
                       <div className="flex items-center">
                         <Star className="w-5 h-5 text-yellow-500" />
                         <span className="ml-1 font-semibold">{wine.userRating}/5</span>
                       </div>
                       <span className="text-gray-600 dark:text-gray-400">({wine.amountOfUserRatings} ratings)</span>
                     </div>
-                    <div className="flex items-center gap-2 text-sm">
+                    <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm">
                       <div className="flex items-center">
-                        <Award className="w-5 h-5 text-purple-500" />
+                        <Award className="w-4 h-4 sm:w-5 sm:h-5 text-purple-500" />
                         <span className="ml-1 font-semibold">{wine.criticScore}/100</span>
                       </div>
                       <span className="text-gray-600 dark:text-gray-400">
                         ({wine.amountOfCriticReviews || 0} reviews)
                       </span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className="font-semibold text-sm">Style:</span>
-                      <span className="text-sm">{wine.style}</span>
+                    <div className="flex items-center gap-1 sm:gap-2">
+                      <span className="font-semibold text-xs sm:text-sm">Style:</span>
+                      <span className="text-xs sm:text-sm truncate">{wine.style}</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className="font-semibold text-sm">Grape:</span>
-                      <span className="text-sm">{wine.grapeVariety}</span>
+                    <div className="flex items-center gap-1 sm:gap-2">
+                      <span className="font-semibold text-xs sm:text-sm">Grape:</span>
+                      <span className="text-xs sm:text-sm truncate">{wine.grapeVariety}</span>
                     </div>
                   </div>
 
-                  <div className="mt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
-                    <div className="text-sm text-gray-600 dark:text-gray-400 break-words">
+                  <div className="mt-3 sm:mt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-1 sm:gap-2">
+                    <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 break-words">
                       Best paired with: <span className="font-medium">{wine.foodPairing}</span>
                     </div>
-                    <div className="text-lg font-bold">
+                    <div className="text-base sm:text-lg font-bold">
                       €{wine.price}
-                      <span className="text-sm text-gray-500 dark:text-gray-400 ml-1">/ {wine.unitSize}</span>
+                      <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 ml-1">/ {wine.unitSize}</span>
                     </div>
                   </div>
 
-                  <div className="mt-4 flex flex-wrap gap-2">
+                  <div className="mt-3 sm:mt-4 flex flex-wrap gap-1 sm:gap-2">
                     <a
                       href={wine.productUrl}
                       target="_blank"
