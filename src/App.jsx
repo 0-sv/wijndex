@@ -8,7 +8,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-<WineRecommendations></WineRecommendations>
+    <div className="w-full min-h-screen bg-gray-50">
+      <WineRecommendations />
+    </div>
   )
 }
 

@@ -60,8 +60,8 @@ export default function WineRecommendations() {
     );
 
     return (
-        <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-4xl mx-auto">
+        <div className="py-4 sm:py-8 px-2 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-8">
                     <h1 className="text-3xl font-bold text-gray-900 mb-2">Top 10 Recommended Wines</h1>
                     <p className="text-gray-600">
@@ -79,18 +79,18 @@ export default function WineRecommendations() {
                     {wines.map((wine, index) => (
                         <div
                             key={wine.productUrl}
-                            className="bg-white rounded-lg shadow-md p-6 transition-transform hover:scale-[1.01]"
+                            className="bg-white rounded-lg shadow-md p-4 sm:p-6 transition-transform hover:scale-[1.01]"
                         >
-                            <div className="flex items-start gap-4">
+                            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
                                 <div className="flex-shrink-0">
                                     <img
                                         src={wine.imgSrc}
                                         alt={wine.productUrl.split('/').pop()}
-                                        className="w-32 h-32 object-contain rounded"
+                                        className="w-24 sm:w-32 h-24 sm:h-32 object-contain rounded"
                                     />
                                 </div>
 
-                                <div className="flex-grow">
+                                <div className="flex-grow w-full">
                                     <div className="flex justify-between items-start">
                                         <div>
                       <span className="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">
@@ -105,7 +105,7 @@ export default function WineRecommendations() {
                                         </div>
                                     </div>
 
-                                    <div className="mt-2 grid grid-cols-2 gap-4">
+                                    <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4">
                                         <div className="flex items-center gap-2 text-sm">
                                             <div className="flex items-center">
                                                 <Star className="w-5 h-5 text-yellow-500" />
@@ -134,8 +134,8 @@ export default function WineRecommendations() {
                                         </div>
                                     </div>
 
-                                    <div className="mt-4 flex items-center justify-between">
-                                        <div className="text-sm text-gray-600">
+                                    <div className="mt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+                                        <div className="text-sm text-gray-600 break-words">
                                             Best paired with: <span className="font-medium">{wine.foodPairing}</span>
                                         </div>
                                         <div className="text-lg font-bold">
@@ -144,7 +144,7 @@ export default function WineRecommendations() {
                                         </div>
                                     </div>
 
-                                    <div className="mt-4 flex gap-2">
+                                    <div className="mt-4 flex flex-wrap gap-2">
                                         <a
                                             href={wine.productUrl}
                                             target="_blank"
