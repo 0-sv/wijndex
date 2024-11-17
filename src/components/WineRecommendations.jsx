@@ -7,7 +7,9 @@ export default function WineRecommendations() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/0-sv/scrape-ah/refs/heads/main/results.json')
+    fetch(import.meta.env.DEV 
+      ? 'http://localhost:8000/results.json'
+      : 'https://raw.githubusercontent.com/0-sv/scrape-ah/refs/heads/main/results.json')
       .then((response) => response.json())
       .then((data) => {
         // Filter out wines without ratings or scores
