@@ -42,7 +42,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <img src={wineGlassLogo} alt="DruifDuif logo" className="w-8 h-8" />
-            <h1 className="text-2xl font-bold text-gray-800 dark:text-white">DruifDuif</h1>
+            <h1 className="hidden sm:block text-2xl font-bold text-gray-800 dark:text-white">DruifDuif</h1>
           </div>
           <div className="flex items-center gap-2">
             <button
