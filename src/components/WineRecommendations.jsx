@@ -8,7 +8,7 @@ export default function WineRecommendations() {
 
   useEffect(() => {
     fetch(import.meta.env.DEV 
-      ? 'http://localhost:8000/results.json'
+      ? '/results.json'
       : 'https://raw.githubusercontent.com/0-sv/scrape-ah/refs/heads/main/results.json')
       .then((response) => response.json())
       .then((data) => {

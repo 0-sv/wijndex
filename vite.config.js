@@ -5,4 +5,12 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: "/druifdruif",
   plugins: [react()],
+  server: {
+    proxy: {
+      '/results.json': {
+        target: 'http://localhost:8000',
+        changeOrigin: true
+      }
+    }
+  }
 });
