@@ -3,7 +3,15 @@ import './App.css';
 import WineRecommendations from './components/WineRecommendations.jsx';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    // Check localStorage first
+    const savedMode = localStorage.getItem('darkMode');
+    if (savedMode !== null) {
+      return JSON.parse(savedMode);
+    }
+    // Fall back to system preference
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  });
 
   useEffect(() => {
     if (darkMode) {
@@ -11,7 +19,19 @@ function App() {
     } else {
       document.documentElement.classList.remove('dark');
     }
+    localStorage.setItem('darkMode', JSON.stringify(darkMode));
   }, [darkMode]);
+
+  // Listen for system theme changes
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    const handleChange = (e) => {
+      setDarkMode(e.matches);
+    };
+    
+    mediaQuery.addEventListener('change', handleChange);
+    return () => mediaQuery.removeEventListener('change', handleChange);
+  }, []);
 
   return (
     <div className="w-full min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
