@@ -56,14 +56,14 @@ export default function WineRecommendations() {
     <div className="py-4 sm:py-8 px-2 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Top 10 Recommended Wines</h1>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">Top 10 Recommended Wines</h1>
         </div>
 
         <div className="space-y-4">
           {wines.map((wine, index) => (
             <div
               key={wine.productUrl}
-              className="bg-white rounded-lg shadow-md p-4 sm:p-6 transition-transform hover:scale-[1.01]"
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 sm:p-6 transition-transform hover:scale-[1.01]"
             >
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
                 <div className="flex-shrink-0">
@@ -77,7 +77,7 @@ export default function WineRecommendations() {
                 <div className="flex-grow w-full">
                   <div className="flex justify-between items-start">
                     <div>
-                      <span className="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">
+                      <span className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs font-semibold px-2.5 py-0.5 rounded">
                         #{index + 1}
                       </span>
                       <h2 className="text-xl font-semibold mt-1">
@@ -93,14 +93,14 @@ export default function WineRecommendations() {
                         <Star className="w-5 h-5 text-yellow-500" />
                         <span className="ml-1 font-semibold">{wine.userRating}/5</span>
                       </div>
-                      <span className="text-gray-600">({wine.amountOfUserRatings} ratings)</span>
+                      <span className="text-gray-600 dark:text-gray-400">({wine.amountOfUserRatings} ratings)</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm">
                       <div className="flex items-center">
                         <Award className="w-5 h-5 text-purple-500" />
                         <span className="ml-1 font-semibold">{wine.criticScore}/100</span>
                       </div>
-                      <span className="text-gray-600">
+                      <span className="text-gray-600 dark:text-gray-400">
                         ({wine.amountOfCriticReviews || 0} reviews)
                       </span>
                     </div>
@@ -115,12 +115,12 @@ export default function WineRecommendations() {
                   </div>
 
                   <div className="mt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
-                    <div className="text-sm text-gray-600 break-words">
+                    <div className="text-sm text-gray-600 dark:text-gray-400 break-words">
                       Best paired with: <span className="font-medium">{wine.foodPairing}</span>
                     </div>
                     <div className="text-lg font-bold">
                       €{wine.price}
-                      <span className="text-sm text-gray-500 ml-1">/ {wine.unitSize}</span>
+                      <span className="text-sm text-gray-500 dark:text-gray-400 ml-1">/ {wine.unitSize}</span>
                     </div>
                   </div>
 
