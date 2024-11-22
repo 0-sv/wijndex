@@ -89,12 +89,12 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
               key={wine.productUrl}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 sm:p-6 transition-transform hover:scale-[1.01]"
             >
-              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
-                <div className="flex-shrink-0">
+              <div className="flex flex-col sm:flex-row items-center gap-4">
+                <div className="flex-shrink-0 flex items-center justify-center h-full">
                   <img
                     src={wine.imgSrc}
                     alt={wine.productUrl.split('/').pop()}
-                    className="w-20 sm:w-32 h-20 sm:h-32 object-contain rounded"
+                    className="w-20 sm:w-32 h-20 sm:h-32 object-contain rounded my-auto"
                   />
                 </div>
 
