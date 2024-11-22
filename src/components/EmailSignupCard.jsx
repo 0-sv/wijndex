@@ -9,15 +9,20 @@ export default function EmailSignupCard() {
     setStatus('loading');
 
     try {
-      const response = await fetch(import.meta.env.DEV ? 'http://localhost:8787' : 'https://wijndex-email-signup.ajsverbeek.workers.dev', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email,
-        }),
-      });
+      const response = await fetch(
+        import.meta.env.DEV
+          ? 'http://localhost:8787'
+          : 'https://wijndex-email-signup.ajsverbeek.workers.dev',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            email,
+          }),
+        }
+      );
 
       if (response.ok) {
         setStatus('success');
@@ -55,9 +60,6 @@ export default function EmailSignupCard() {
         <div className="flex-grow w-full">
           <div className="flex justify-between items-start">
             <div className="flex-grow text-center">
-              <span className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs font-semibold px-2.5 py-0.5 rounded">
-                #4
-              </span>
               <h2 className="text-base sm:text-xl font-semibold mt-1">
                 Weekly Wine Recommendations
               </h2>
