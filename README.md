@@ -6,9 +6,9 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# 🍷 DruifDuif
+# 🍷 Wijndex
 
-DruifDuif is a modern web application that helps wine enthusiasts discover the top 10 recommended wines from Albert Heijn, ranked using a sophisticated scoring algorithm that considers both user and critic ratings.
+Wijndex is a modern web application that helps wine enthusiasts discover the top 10 recommended wines from Albert Heijn, ranked using a sophisticated scoring algorithm that considers both user and critic ratings.
 
 ## Features
 

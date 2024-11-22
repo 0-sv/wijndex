@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://0-sv.github.io/druifdruif",
+  "homepage": "https://0-sv.github.io/wijndex",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

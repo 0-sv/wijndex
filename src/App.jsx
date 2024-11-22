@@ -35,7 +35,7 @@ function App() {
     const handleChange = (e) => {
       setDarkMode(e.matches);
     };
-    
+
     mediaQuery.addEventListener('change', handleChange);
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);
@@ -57,8 +57,10 @@ function App() {
       <nav className="w-full bg-white dark:bg-gray-800 shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <img src={wineGlassLogo} alt="DruifDuif logo" className="w-8 h-8" />
-            <h1 className="hidden sm:block text-2xl font-bold text-gray-800 dark:text-white">DruifDuif</h1>
+            <img src={wineGlassLogo} alt="Wijndex logo" className="w-8 h-8" />
+            <h1 className="hidden sm:block text-2xl font-bold text-gray-800 dark:text-white">
+              Wijndex
+            </h1>
           </div>
           <div className="flex-1 max-w-xl mx-4">
             <div className="relative">
@@ -73,8 +75,15 @@ function App() {
                           dark:focus:ring-blue-800 focus:outline-none transition-colors"
               />
               <div className="absolute inset-y-0 right-0 flex items-center pr-3">
-                <svg className="h-5 w-5 text-gray-400" fill="none" strokeLinecap="round" 
-                     strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                <svg
+                  className="h-5 w-5 text-gray-400"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
                   <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                 </svg>
               </div>
@@ -91,13 +100,11 @@ function App() {
                 <div className="w-full h-0.5 bg-gray-600 dark:bg-gray-300 rounded-full"></div>
               </div>
             </button>
-            
+
             {isMenuOpen && (
-              <div 
-                className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 dark:divide-gray-700"
-              >
+              <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 dark:divide-gray-700">
                 <div className="py-1">
-                  {(showUnder10 || showUnder5 || wineType !== 'all') ? (
+                  {showUnder10 || showUnder5 || wineType !== 'all' ? (
                     <button
                       onClick={() => {
                         setShowUnder10(false);
@@ -164,7 +171,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <WineRecommendations 
+      <WineRecommendations
         showUnder10={showUnder10}
         showUnder5={showUnder5}
         wineType={wineType}
