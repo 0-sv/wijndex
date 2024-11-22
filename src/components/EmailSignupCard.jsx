@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { ExternalLink } from 'lucide-react';
 
 export default function EmailSignupCard() {
   const [email, setEmail] = useState('');
@@ -10,16 +9,19 @@ export default function EmailSignupCard() {
     setStatus('loading');
 
     try {
-      const response = await fetch('https://emailoctopus.com/api/1.6/lists/YOUR_LIST_ID/contacts', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          api_key: import.meta.env.VITE_EMAILOCTOPUS_API_KEY,
-          email_address: email,
-        }),
-      });
+      const response = await fetch(
+        'https://api.emailoctopus.com/api/1.6/lists/YOUR_LIST_ID/contacts',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            api_key: import.meta.env.VITE_EMAILOCTOPUS_API_KEY,
+            email_address: email,
+          }),
+        }
+      );
 
       if (response.ok) {
         setStatus('success');
