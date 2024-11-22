@@ -5,6 +5,7 @@ import wineGlassLogo from '/wine-glass.svg';
 
 function App() {
   const [showUnder10, setShowUnder10] = useState(false);
+  const [showUnder5, setShowUnder5] = useState(false);
   const [wineType, setWineType] = useState('all'); // 'all', 'red', 'white'
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -116,6 +117,15 @@ function App() {
                   </button>
                   <button
                     onClick={() => {
+                      setShowUnder5(!showUnder5);
+                      setIsMenuOpen(false);
+                    }}
+                    className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
+                    {showUnder5 ? '🍷 Show all wines' : '🍷 Under €5'}
+                  </button>
+                  <button
+                    onClick={() => {
                       setDarkMode(!darkMode);
                       setIsMenuOpen(false);
                     }}
@@ -131,6 +141,7 @@ function App() {
       </nav>
       <WineRecommendations 
         showUnder10={showUnder10}
+        showUnder5={showUnder5}
         wineType={wineType}
         searchQuery={searchQuery}
       />

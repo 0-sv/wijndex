@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ExternalLink, Star, Award, X } from 'lucide-react';
 
-export default function WineRecommendations({ showUnder10, wineType, searchQuery }) {
+export default function WineRecommendations({ showUnder10, showUnder5, wineType, searchQuery }) {
   const [wines, setWines] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -66,7 +66,8 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
 
   const filteredWines = wines
     .filter((wine) => {
-      const priceCondition = !showUnder10 || parseFloat(wine.price) < 10;
+      const priceCondition = (!showUnder10 && !showUnder5) || 
+                            (showUnder5 ? parseFloat(wine.price) < 5 : parseFloat(wine.price) < 10);
       const typeCondition =
         wineType === 'all'
           ? true
