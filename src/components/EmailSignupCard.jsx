@@ -10,7 +10,7 @@ export default function EmailSignupCard() {
 
     try {
       const response = await fetch(
-        `https://api.emailoctopus.com/api/1.6/lists/${import.meta.env.VITE_EMAILOCTOPUS_LIST_ID}/contacts`,
+        `https://emailoctopus.com/api/1.6/lists/${import.meta.env.VITE_EMAILOCTOPUS_LIST_ID}/contacts`,
         {
           method: 'POST',
           headers: {
