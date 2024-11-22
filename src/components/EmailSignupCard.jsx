@@ -9,19 +9,15 @@ export default function EmailSignupCard() {
     setStatus('loading');
 
     try {
-      const response = await fetch(
-        `https://emailoctopus.com/api/1.6/lists/${import.meta.env.VITE_EMAILOCTOPUS_LIST_ID}/contacts`,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            api_key: import.meta.env.VITE_EMAILOCTOPUS_API_KEY,
-            email_address: email,
-          }),
-        }
-      );
+      const response = await fetch(`https://wijndex-email-signup.ajsverbeek.workers.dev`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email,
+        }),
+      });
 
       if (response.ok) {
         setStatus('success');
