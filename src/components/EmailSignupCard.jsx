@@ -54,7 +54,7 @@ export default function EmailSignupCard() {
 
         <div className="flex-grow w-full">
           <div className="flex justify-between items-start">
-            <div>
+            <div className="text-center">
               <span className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs font-semibold px-2.5 py-0.5 rounded">
                 #4
               </span>
