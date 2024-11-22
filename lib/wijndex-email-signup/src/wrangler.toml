@@ -1,0 +1,12 @@
+name = "wijndex-email-signup"
+main = "worker.js"
+compatibility_date = "2023-08-23"
+
+[vars]
+ENVIRONMENT = "development"
+
+[unsafe.metadata.observability]
+enabled = true
+
+# For local development, you can add a fallback (not recommended for production!)
+EMAILOCTOPUS_API_KEY = "your-local-dev-api-key"
