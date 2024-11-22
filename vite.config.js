@@ -11,8 +11,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['wine-glass.svg'],
       manifest: {
-        name: 'Wijndex',
-        short_name: 'Wijndex',
+        name: 'wijndex',
+        short_name: 'wijndex',
         description: 'Wine Recommendations App',
         theme_color: '#ffffff',
         icons: [

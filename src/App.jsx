@@ -57,9 +57,9 @@ function App() {
       <nav className="w-full bg-white dark:bg-gray-800 shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <img src={wineGlassLogo} alt="Wijndex logo" className="w-8 h-8" />
+            <img src={wineGlassLogo} alt="wijndex logo" className="w-8 h-8" />
             <h1 className="hidden sm:block text-2xl font-bold text-gray-800 dark:text-white">
-              Wijndex
+              wijndex
             </h1>
           </div>
           <div className="flex-1 max-w-xl mx-4">
