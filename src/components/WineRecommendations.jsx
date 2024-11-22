@@ -68,10 +68,14 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
         wineType === 'all' ? true :
         wineType === 'red' ? wine.style.toLowerCase().includes('red') :
         wine.style.toLowerCase().includes('white');
-      const searchCondition = !searchQuery || 
-        wine.style.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        wine.grapeVariety.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        wine.foodPairing.toLowerCase().includes(searchQuery.toLowerCase());
+      const searchCondition = !searchQuery || [
+        wine.style,
+        wine.grapeVariety,
+        wine.foodPairing,
+        wine.productUrl?.split('/')?.pop()
+      ].some(field => 
+        field?.toLowerCase()?.includes(searchQuery.toLowerCase())
+      );
       return priceCondition && typeCondition && searchCondition;
     })
     .slice(0, 10);
