@@ -9,7 +9,7 @@ export default function EmailSignupCard() {
     setStatus('loading');
 
     try {
-      const response = await fetch(`https://wijndex-email-signup.ajsverbeek.workers.dev`, {
+      const response = await fetch(import.meta.env.DEV ? 'http://localhost:8787' : 'https://wijndex-email-signup.ajsverbeek.workers.dev', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
