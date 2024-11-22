@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { ExternalLink, Star, Award } from 'lucide-react';
+import { ExternalLink, Star, Award, X } from 'lucide-react';
 
 export default function WineRecommendations({ showUnder10, wineType, searchQuery }) {
   const [wines, setWines] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
     fetch(import.meta.env.DEV 
@@ -94,7 +95,8 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
                   <img
                     src={wine.imgSrc}
                     alt={wine.productUrl.split('/').pop()}
-                    className="w-20 sm:w-32 h-20 sm:h-32 object-contain rounded my-auto"
+                    className="w-20 sm:w-32 h-20 sm:h-32 object-contain rounded my-auto cursor-pointer hover:opacity-80 transition-opacity"
+                    onClick={() => setSelectedImage(wine.imgSrc)}
                   />
                 </div>
 
@@ -173,5 +175,27 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
         </div>
       </div>
     </div>
+    
+    {selectedImage && (
+      <div 
+        className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
+        onClick={() => setSelectedImage(null)}
+      >
+        <div className="relative max-w-4xl w-full">
+          <button
+            onClick={() => setSelectedImage(null)}
+            className="absolute -top-10 right-0 text-white hover:text-gray-300"
+          >
+            <X className="w-6 h-6" />
+          </button>
+          <img
+            src={selectedImage}
+            alt="Wine bottle"
+            className="w-full h-auto object-contain max-h-[80vh] rounded-lg"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      </div>
+    )}
   );
 }
