@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ExternalLink, Star, Award } from 'lucide-react';
 
-export default function WineRecommendations({ showUnder10, wineType }) {
+export default function WineRecommendations({ showUnder10, wineType, searchQuery }) {
   const [wines, setWines] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -68,7 +68,11 @@ export default function WineRecommendations({ showUnder10, wineType }) {
         wineType === 'all' ? true :
         wineType === 'red' ? wine.style.toLowerCase().includes('red') :
         wine.style.toLowerCase().includes('white');
-      return priceCondition && typeCondition;
+      const searchCondition = !searchQuery || 
+        wine.style.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        wine.grapeVariety.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        wine.foodPairing.toLowerCase().includes(searchQuery.toLowerCase());
+      return priceCondition && typeCondition && searchCondition;
     })
     .slice(0, 10);
 
