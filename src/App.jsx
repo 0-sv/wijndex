@@ -82,7 +82,7 @@ function App() {
           <div className="relative">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
+              className="py-2 px-2.5 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200 flex items-center"
             >
               <div className="w-6 h-5 flex flex-col justify-between">
                 <div className="w-full h-0.5 bg-gray-600 dark:bg-gray-300 rounded-full"></div>
