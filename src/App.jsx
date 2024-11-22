@@ -79,12 +79,9 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative" ref={menuRef}>
             <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setIsMenuOpen(prev => !prev);
-              }}
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="py-2 px-2.5 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200 flex items-center"
             >
               <div className="w-6 h-5 flex flex-col justify-between">
@@ -96,7 +93,6 @@ function App() {
             
             {isMenuOpen && (
               <div 
-                ref={menuRef}
                 className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 dark:divide-gray-700"
               >
                 <div className="py-1">
