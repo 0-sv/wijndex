@@ -61,21 +61,22 @@ export default function WineRecommendations({ showUnder10, wineType }) {
 
   if (error) return <div className="text-red-500 text-center p-4">{error}</div>;
 
+  const filteredWines = wines
+    .filter((wine) => {
+      const priceCondition = !showUnder10 || parseFloat(wine.price) < 10;
+      const typeCondition = 
+        wineType === 'all' ? true :
+        wineType === 'red' ? wine.style.toLowerCase().includes('red') :
+        wine.style.toLowerCase().includes('white');
+      return priceCondition && typeCondition;
+    })
+    .slice(0, 10);
+
   return (
     <div className="py-2 sm:py-8 px-1 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="space-y-2 sm:space-y-4">
-          {wines
-            .filter((wine) => {
-              const priceCondition = !showUnder10 || parseFloat(wine.price) < 10;
-              const typeCondition = 
-                wineType === 'all' ? true :
-                wineType === 'red' ? wine.style.toLowerCase().includes('red') :
-                wine.style.toLowerCase().includes('white');
-              return priceCondition && typeCondition;
-            })
-            .slice(0, 10)
-            .map((wine, index) => (
+          {filteredWines.map((wine, index) => (
             <div
               key={wine.productUrl}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 sm:p-6 transition-transform hover:scale-[1.01]"
