@@ -8,9 +8,11 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
   const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
-    fetch(import.meta.env.DEV 
-      ? '/results.json'
-      : 'https://raw.githubusercontent.com/0-sv/scrape-ah/refs/heads/main/results.json')
+    fetch(
+      import.meta.env.DEV
+        ? '/results.json'
+        : 'https://raw.githubusercontent.com/0-sv/scrape-ah/refs/heads/main/results.json'
+    )
       .then((response) => response.json())
       .then((data) => {
         // Filter out wines without ratings or scores
@@ -22,13 +24,13 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
         const processedWines = validWines.map((wine) => {
           // Normalize scores to 0-1 range and apply weights
           const userScore = (wine.userRating / 5) * 0.3; // 30% weight
-          
+
           // Logarithmic scaling for user ratings (base 1000)
           const userCountLog = Math.log(wine.amountOfUserRatings + 1) / Math.log(1000);
           const userCountScore = Math.min(userCountLog, 1) * 0.25; // 25% weight
-          
+
           const criticScore = (wine.criticScore / 100) * 0.3; // 30% weight
-          
+
           // Logarithmic scaling for critic reviews (base 100)
           const criticCountLog = Math.log((wine.amountOfCriticReviews || 0) + 1) / Math.log(100);
           const criticCountScore = Math.min(criticCountLog, 1) * 0.15; // 15% weight
@@ -65,18 +67,17 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
   const filteredWines = wines
     .filter((wine) => {
       const priceCondition = !showUnder10 || parseFloat(wine.price) < 10;
-      const typeCondition = 
-        wineType === 'all' ? true :
-        wineType === 'red' ? wine.style.toLowerCase().includes('red') :
-        wine.style.toLowerCase().includes('white');
-      const searchCondition = !searchQuery || [
-        wine.style,
-        wine.grapeVariety,
-        wine.foodPairing,
-        wine.productUrl?.split('/')?.pop()
-      ].some(field => 
-        field?.toLowerCase()?.includes(searchQuery.toLowerCase())
-      );
+      const typeCondition =
+        wineType === 'all'
+          ? true
+          : wineType === 'red'
+            ? wine.style.toLowerCase().includes('red')
+            : wine.style.toLowerCase().includes('white');
+      const searchCondition =
+        !searchQuery ||
+        [wine.style, wine.grapeVariety, wine.foodPairing, wine.productUrl?.split('/')?.pop()].some(
+          (field) => field?.toLowerCase()?.includes(searchQuery.toLowerCase())
+        );
       return priceCondition && typeCondition && searchCondition;
     })
     .slice(0, 10);
@@ -119,7 +120,9 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
                         <Star className="w-5 h-5 text-yellow-500" />
                         <span className="ml-1 font-semibold">{wine.userRating}/5</span>
                       </div>
-                      <span className="text-gray-600 dark:text-gray-400">({wine.amountOfUserRatings} ratings)</span>
+                      <span className="text-gray-600 dark:text-gray-400">
+                        ({wine.amountOfUserRatings} ratings)
+                      </span>
                     </div>
                     <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm">
                       <div className="flex items-center">
@@ -146,7 +149,9 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
                     </div>
                     <div className="text-base sm:text-lg font-bold">
                       €{wine.price}
-                      <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 ml-1">/ {wine.unitSize}</span>
+                      <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 ml-1">
+                        / {wine.unitSize}
+                      </span>
                     </div>
                   </div>
 
@@ -174,28 +179,27 @@ export default function WineRecommendations({ showUnder10, wineType, searchQuery
           ))}
         </div>
       </div>
-    </div>
-    
-    {selectedImage && (
-      <div 
-        className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
-        onClick={() => setSelectedImage(null)}
-      >
-        <div className="relative max-w-4xl w-full">
-          <button
-            onClick={() => setSelectedImage(null)}
-            className="absolute -top-10 right-0 text-white hover:text-gray-300"
-          >
-            <X className="w-6 h-6" />
-          </button>
-          <img
-            src={selectedImage}
-            alt="Wine bottle"
-            className="w-full h-auto object-contain max-h-[80vh] rounded-lg"
-            onClick={(e) => e.stopPropagation()}
-          />
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className="relative max-w-4xl w-full">
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute -top-10 right-0 text-white hover:text-gray-300"
+            >
+              <X className="w-6 h-6" />
+            </button>
+            <img
+              src={selectedImage}
+              alt="Wine bottle"
+              className="w-full h-auto object-contain max-h-[80vh] rounded-lg"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
         </div>
-      </div>
-    )}
+      )}
+    </div>
   );
 }
