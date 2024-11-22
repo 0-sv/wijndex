@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 .aider*
 .env
+.env.local
+.env.development
+.env.production
