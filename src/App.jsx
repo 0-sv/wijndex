@@ -96,7 +96,7 @@ function App() {
               {darkMode ? '☀️' : '🌙'}
             </button>
             <div className="relative" ref={menuRef}>
-            <button
+              <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="py-2 px-2.5 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200 flex items-center"
             >
@@ -110,20 +110,20 @@ function App() {
             {isMenuOpen && (
               <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5">
                 <div className="py-1">
-                    {(showUnder10 || showUnder5 || wineType !== 'all') && (
-                      <button
-                        onClick={() => {
-                          setShowUnder10(false);
-                          setShowUnder5(false);
-                          setWineType('all');
-                          setIsMenuOpen(false);
-                        }}
-                        className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
-                      >
-                        ❌ Clear filters
-                      </button>
-                    )}
+                  {(showUnder10 || showUnder5 || wineType !== 'all') && (
                     <button
+                      onClick={() => {
+                        setShowUnder10(false);
+                        setShowUnder5(false);
+                        setWineType('all');
+                        setIsMenuOpen(false);
+                      }}
+                      className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
+                    >
+                      ❌ Clear filters
+                    </button>
+                  )}
+                  <button
                       onClick={() => {
                         setWineType('red');
                         setIsMenuOpen(false);
@@ -159,7 +159,6 @@ function App() {
                     >
                       🍷 Under €5
                     </button>
-                  </div>
                 </div>
               </div>
             )}
