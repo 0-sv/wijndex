@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import WineRecommendations from './components/WineRecommendations.jsx';
+import TipsPopup from './components/TipsPopup.jsx';
 import wineGlassLogo from '/wine-glass.svg';
 
 function App() {
@@ -9,6 +10,10 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const menuRef = useRef(null);
+  const [showTips, setShowTips] = useState(() => {
+    return !localStorage.getItem('tipsShown');
+  });
+  
   const [darkMode, setDarkMode] = useState(() => {
     // Check localStorage first
     const savedMode = localStorage.getItem('darkMode');
@@ -53,6 +58,13 @@ function App() {
 
   return (
     <div className="w-full min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200 flex flex-col">
+      <TipsPopup 
+        isOpen={showTips} 
+        onClose={() => {
+          setShowTips(false);
+          localStorage.setItem('tipsShown', 'true');
+        }} 
+      />
       <nav className="w-full bg-white dark:bg-gray-800 shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <div className="flex items-center gap-2">
