@@ -117,7 +117,9 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
                       <div className="text-sm font-semibold text-green-600">
                         VALUE SCORE: {wine.valueScore}
                       </div>
-                      <div className="text-2xl font-bold text-blue-600">{wine.totalScore}</div>
+                      <div className="text-2xl font-bold text-blue-600">
+                        RATING: {wine.totalScore}
+                      </div>
                     </div>
                   </div>
 
@@ -214,7 +216,9 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
                       <div className="text-sm font-semibold text-green-600">
                         VALUE SCORE: {wine.valueScore}
                       </div>
-                      <div className="text-2xl font-bold text-blue-600">{wine.totalScore}</div>
+                      <div className="text-2xl font-bold text-blue-600">
+                        RATING: {wine.totalScore}
+                      </div>
                     </div>
                   </div>
 
