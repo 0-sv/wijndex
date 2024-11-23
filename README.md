@@ -21,7 +21,7 @@ wijndex is a modern web application that helps wine enthusiasts discover the top
 - React + Vite
 - Tailwind CSS
 - Lucide React Icons
-- External data from [scrape-ah](https://github.com/0-sv/wine-scraper)
+- External data from ./lib/scraper
 
 ## Getting Started
 
