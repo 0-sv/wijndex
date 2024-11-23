@@ -9,6 +9,7 @@ export default function WineRecommendations({
   wineType,
   searchQuery,
   sortBy,
+  onGrapeVarietiesLoaded,
 }) {
   const [wines, setWines] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -55,6 +56,12 @@ export default function WineRecommendations({
         });
 
         setWines(processedWines);
+        // Extract and send unique grape varieties
+        const uniqueGrapeVarieties = [...new Set(processedWines
+          .map(wine => wine.grapeVariety)
+          .filter(variety => variety && variety.trim())
+        )].sort();
+        onGrapeVarietiesLoaded?.(uniqueGrapeVarieties);
         setLoading(false);
       })
       .catch((err) => {

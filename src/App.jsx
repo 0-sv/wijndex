@@ -9,7 +9,10 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('score'); // 'score' or 'value'
+  const [grapeVarieties, setGrapeVarieties] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const menuRef = useRef(null);
+  const searchRef = useRef(null);
   const [showTips, setShowTips] = useState(() => {
     return !localStorage.getItem('tipsShown');
   });
@@ -56,6 +59,18 @@ function App() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [menuRef]);
 
+  // Close search suggestions when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        setShowSuggestions(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [searchRef]);
+
   return (
     <div className="w-full min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200 flex flex-col">
       <TipsPopup
@@ -74,17 +89,41 @@ function App() {
             </h1>
           </div>
           <div className="flex-1 max-w-xl mx-4">
-            <div className="relative">
+            <div className="relative" ref={searchRef}>
               <input
                 type="text"
                 placeholder="Search wines..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => {
+                  setSearchQuery(e.target.value);
+                  setShowSuggestions(true);
+                }}
+                onFocus={() => setShowSuggestions(true)}
                 className="w-full px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 
                           placeholder-gray-500 dark:placeholder-gray-400 border border-transparent 
                           focus:border-blue-500 dark:focus:border-blue-400 focus:ring-2 focus:ring-blue-200 
                           dark:focus:ring-blue-800 focus:outline-none transition-colors"
               />
+              {showSuggestions && grapeVarieties.length > 0 && searchQuery && (
+                <div className="absolute z-50 w-full mt-1 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 max-h-60 overflow-y-auto">
+                  {grapeVarieties
+                    .filter(variety => 
+                      variety.toLowerCase().includes(searchQuery.toLowerCase())
+                    )
+                    .map((variety, index) => (
+                      <button
+                        key={index}
+                        className="w-full text-left px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 text-sm"
+                        onClick={() => {
+                          setSearchQuery(variety);
+                          setShowSuggestions(false);
+                        }}
+                      >
+                        {variety}
+                      </button>
+                    ))}
+                </div>
+              )}
               <div className="absolute inset-y-0 right-0 flex items-center pr-3">
                 <svg
                   className="h-5 w-5 text-gray-400"
@@ -192,6 +231,7 @@ function App() {
         showUnder5={showUnder5}
         searchQuery={searchQuery}
         sortBy={sortBy}
+        onGrapeVarietiesLoaded={setGrapeVarieties}
       />
       <footer className="w-full bg-white dark:bg-gray-800 shadow-md mt-auto">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
