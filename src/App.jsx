@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react';
-import './App.css';
 import WineRecommendations from './components/WineRecommendations.jsx';
 import wineGlassLogo from '/wine-glass.svg';
 
