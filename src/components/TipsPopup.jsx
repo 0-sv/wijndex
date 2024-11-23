@@ -12,6 +12,9 @@ function TipsPopup({ isOpen, onClose }) {
         </h2>
         <ul className="space-y-3 text-gray-600 dark:text-gray-300">
           <li>
+            • Our database contains about 1,000 wines from Albert Heijn and Wine-Searcher.
+          </li>
+          <li>
             • Use the search bar to find wines by name, grape (e.g. "merlot"), style (🍷 "red") or
             food pairing ("venision").
           </li>
