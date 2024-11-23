@@ -97,33 +97,33 @@ function App() {
             </button>
             <div className="relative" ref={menuRef}>
               <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="py-2 px-2.5 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200 flex items-center"
-            >
-              <div className="w-6 h-5 flex flex-col justify-between">
-                <div className="w-full h-0.5 bg-gray-600 dark:bg-gray-300 rounded-full"></div>
-                <div className="w-full h-0.5 bg-gray-600 dark:bg-gray-300 rounded-full"></div>
-                <div className="w-full h-0.5 bg-gray-600 dark:bg-gray-300 rounded-full"></div>
-              </div>
-            </button>
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                className="py-2 px-2.5 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200 flex items-center"
+              >
+                <div className="w-6 h-5 flex flex-col justify-between">
+                  <div className="w-full h-0.5 bg-gray-600 dark:bg-gray-300 rounded-full"></div>
+                  <div className="w-full h-0.5 bg-gray-600 dark:bg-gray-300 rounded-full"></div>
+                  <div className="w-full h-0.5 bg-gray-600 dark:bg-gray-300 rounded-full"></div>
+                </div>
+              </button>
 
-            {isMenuOpen && (
-              <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5">
-                <div className="py-1">
-                  {(showUnder10 || showUnder5 || wineType !== 'all') && (
+              {isMenuOpen && (
+                <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5">
+                  <div className="py-1">
+                    {(showUnder10 || showUnder5 || wineType !== 'all') && (
+                      <button
+                        onClick={() => {
+                          setShowUnder10(false);
+                          setShowUnder5(false);
+                          setWineType('all');
+                          setIsMenuOpen(false);
+                        }}
+                        className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
+                      >
+                        ❌ Clear filters
+                      </button>
+                    )}
                     <button
-                      onClick={() => {
-                        setShowUnder10(false);
-                        setShowUnder5(false);
-                        setWineType('all');
-                        setIsMenuOpen(false);
-                      }}
-                      className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
-                    >
-                      ❌ Clear filters
-                    </button>
-                  )}
-                  <button
                       onClick={() => {
                         setWineType('red');
                         setIsMenuOpen(false);
@@ -159,10 +159,10 @@ function App() {
                     >
                       🍷 Under €5
                     </button>
+                  </div>
                 </div>
-              </div>
-            )}
-          </div>
+              )}
+            </div>
           </div>
         </div>
       </nav>
@@ -194,7 +194,6 @@ function App() {
           </a>
         </div>
       </footer>
-    </div>
     </div>
   );
 }
