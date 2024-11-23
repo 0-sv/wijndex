@@ -21,7 +21,7 @@ export default function WineRecommendations({
     fetch(
       import.meta.env.DEV
         ? '/results.json'
-        : 'https://raw.githubusercontent.com/0-sv/scrape-ah/refs/heads/main/results.json'
+        : 'https://raw.githubusercontent.com/0-sv/wijndex/refs/heads/main/lib/scraper/results.json'
     )
       .then((response) => response.json())
       .then((data) => {
@@ -57,10 +57,13 @@ export default function WineRecommendations({
 
         setWines(processedWines);
         // Extract and send unique grape varieties
-        const uniqueGrapeVarieties = [...new Set(processedWines
-          .map(wine => wine.grapeVariety)
-          .filter(variety => variety && variety.trim())
-        )].sort();
+        const uniqueGrapeVarieties = [
+          ...new Set(
+            processedWines
+              .map((wine) => wine.grapeVariety)
+              .filter((variety) => variety && variety.trim())
+          ),
+        ].sort();
         onGrapeVarietiesLoaded?.(uniqueGrapeVarieties);
         setLoading(false);
       })
