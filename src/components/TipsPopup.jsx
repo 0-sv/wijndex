@@ -25,6 +25,10 @@ function TipsPopup({ isOpen, onClose }) {
             • The 🔵 blue score (0-100) combines user ratings (30%), number of ratings (25%), critic
             scores (30%), and number of reviews (15%).
           </li>
+          <li>
+            • The 💎 value score shows the best quality for your money - it's calculated by dividing
+            the blue score by the price.
+          </li>
         </ul>
         <button
           onClick={onClose}
