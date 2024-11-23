@@ -15,12 +15,14 @@ wijndex is a modern web application that helps wine enthusiasts discover the top
 - 🏆 Smart ranking algorithm combining user ratings, critic scores, and review counts
 - 🌓 Dark/light mode with system preference detection and persistence
 - 📱 Responsive design for all devices
+- 💡 Enhanced user tips and guidance
 - 🔍 Detailed wine information including:
   - User and critic ratings
-  - Wine style and grape variety
-  - Food pairing suggestions
+  - Wine style and grape variety with smart suggestions
+  - Intelligent food pairing suggestions
   - Price and unit size
   - Direct links to Albert Heijn and Wine-Searcher
+- 🍇 Smart grape variety search suggestions
 
 ## Tech Stack
 
