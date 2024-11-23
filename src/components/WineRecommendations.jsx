@@ -187,7 +187,7 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
             </div>
           ))}
           <EmailSignupCard />
-          {sortedAndFilteredWines.slice(3).map((wine, index) => (
+          {sortedAndFilteredWines.slice(3, 10).map((wine, index) => (
             <div
               key={wine.productUrl}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 sm:p-6 transition-transform hover:scale-[1.01]"
