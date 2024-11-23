@@ -104,58 +104,57 @@ function App() {
             {isMenuOpen && (
               <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 dark:divide-gray-700">
                 <div className="py-1">
-                  {showUnder10 || showUnder5 || wineType !== 'all' ? (
+                  <div className="py-1">
+                    {(showUnder10 || showUnder5 || wineType !== 'all') && (
+                      <button
+                        onClick={() => {
+                          setShowUnder10(false);
+                          setShowUnder5(false);
+                          setWineType('all');
+                          setIsMenuOpen(false);
+                        }}
+                        className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
+                      >
+                        🍷 Clear filters
+                      </button>
+                    )}
                     <button
                       onClick={() => {
-                        setShowUnder10(false);
-                        setShowUnder5(false);
-                        setWineType('all');
+                        setWineType('red');
                         setIsMenuOpen(false);
                       }}
-                      className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${wineType === 'red' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
                     >
-                      🍷 Show all wines
+                      🍷 Red wines
                     </button>
-                  ) : (
-                    <>
-                      <button
-                        onClick={() => {
-                          setWineType('red');
-                          setIsMenuOpen(false);
-                        }}
-                        className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
-                      >
-                        🍷 Red wines
-                      </button>
-                      <button
-                        onClick={() => {
-                          setWineType('white');
-                          setIsMenuOpen(false);
-                        }}
-                        className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
-                      >
-                        🥂 White wines
-                      </button>
-                      <button
-                        onClick={() => {
-                          setShowUnder10(true);
-                          setIsMenuOpen(false);
-                        }}
-                        className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
-                      >
-                        🍷 Under €10
-                      </button>
-                      <button
-                        onClick={() => {
-                          setShowUnder5(true);
-                          setIsMenuOpen(false);
-                        }}
-                        className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
-                      >
-                        🍷 Under €5
-                      </button>
-                    </>
-                  )}
+                    <button
+                      onClick={() => {
+                        setWineType('white');
+                        setIsMenuOpen(false);
+                      }}
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${wineType === 'white' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
+                    >
+                      🥂 White wines
+                    </button>
+                    <button
+                      onClick={() => {
+                        setShowUnder10(!showUnder10);
+                        setIsMenuOpen(false);
+                      }}
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${showUnder10 ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
+                    >
+                      🍷 Under €10
+                    </button>
+                    <button
+                      onClick={() => {
+                        setShowUnder5(!showUnder5);
+                        setIsMenuOpen(false);
+                      }}
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${showUnder5 ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
+                    >
+                      🍷 Under €5
+                    </button>
+                  </div>
                   <button
                     onClick={() => {
                       setDarkMode(!darkMode);
