@@ -14,6 +14,7 @@ export default function WineRecommendations({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [displayCount, setDisplayCount] = useState(10);
 
   useEffect(() => {
     fetch(
@@ -92,7 +93,7 @@ export default function WineRecommendations({
         );
       return priceCondition && typeCondition && searchCondition;
     })
-    .slice(0, 10);
+    .slice(0, displayCount);
 
   return (
     <div className="py-2 sm:py-8 px-1 sm:px-6 lg:px-8">
@@ -115,6 +116,14 @@ export default function WineRecommendations({
               setSelectedImage={setSelectedImage}
             />
           ))}
+          {sortedAndFilteredWines.length >= displayCount && (
+            <button
+              onClick={() => setDisplayCount(prev => prev + 10)}
+              className="w-full py-3 px-4 bg-white hover:bg-gray-50 text-gray-900 font-medium rounded-lg border border-gray-200 shadow-sm transition-colors"
+            >
+              Show More Results
+            </button>
+          )}
         </div>
       </div>
       {selectedImage && (
