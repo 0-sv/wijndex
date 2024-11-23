@@ -88,8 +88,12 @@ export default function WineRecommendations({
             : wine.style.toLowerCase().includes('white');
       const searchCondition =
         !searchQuery ||
-        [wine.style, wine.grapeVariety, wine.foodPairing, wine.productUrl?.split('/')?.pop()].some(
-          (field) => field?.toLowerCase()?.includes(searchQuery.toLowerCase())
+        [
+          wine.style,           // Wine style (e.g., "Red Wine", "White Wine")
+          wine.grapeVariety,    // Grape variety
+          wine.foodPairing,     // Food pairing suggestions
+          wine.productUrl?.split('/')?.pop() // Product name from URL
+        ].some(field => field?.toLowerCase()?.includes(searchQuery.toLowerCase())
         );
       return priceCondition && typeCondition && searchCondition;
     });
