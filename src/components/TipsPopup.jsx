@@ -11,10 +11,16 @@ function TipsPopup({ isOpen, onClose }) {
           Welcome to wijndex!
         </h2>
         <ul className="space-y-3 text-gray-600 dark:text-gray-300">
-          <li>• Use the search bar to find wines by name, grape (e.g. "merlot"), style or food pairing</li>
-          <li>• Toggle between red and white wines using the menu</li>
-          <li>• Filter wines under €5 or €10</li>
-          <li>• Switch between light and dark mode with the ☀️/🌙 button</li>
+          <li>
+            • Use the search bar to find wines by name, grape (e.g. "merlot"), style (🍷 "red") or
+            food pairing ("venision").
+          </li>
+          <li>• If you're on a budget: filter wines under 💰 €5 or €10.</li>
+          <li>• Switch between light and dark mode with the ☀️/🌙 button.</li>
+          <li>
+            • Prices may be inaccurate, please follow the link to AH or Wine-Searcher for actual
+            prices.
+          </li>
         </ul>
         <button
           onClick={onClose}
