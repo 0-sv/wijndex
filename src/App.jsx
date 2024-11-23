@@ -60,6 +60,7 @@ function App() {
             <h1 className="hidden sm:block text-2xl font-bold text-gray-800 dark:text-white">
               wijndex
             </h1>
+            </div>
           </div>
           <div className="flex-1 max-w-xl mx-4">
             <div className="relative">
@@ -88,7 +89,14 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="relative" ref={menuRef}>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setDarkMode(!darkMode)}
+              className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
+            >
+              {darkMode ? '☀️' : '🌙'}
+            </button>
+            <div className="relative" ref={menuRef}>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="py-2 px-2.5 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200 flex items-center"
@@ -101,9 +109,8 @@ function App() {
             </button>
 
             {isMenuOpen && (
-              <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 dark:divide-gray-700">
+              <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5">
                 <div className="py-1">
-                  <div className="py-1">
                     {(showUnder10 || showUnder5 || wineType !== 'all') && (
                       <button
                         onClick={() => {
@@ -154,15 +161,6 @@ function App() {
                       🍷 Under €5
                     </button>
                   </div>
-                  <button
-                    onClick={() => {
-                      setDarkMode(!darkMode);
-                      setIsMenuOpen(false);
-                    }}
-                    className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
-                  >
-                    {darkMode ? '☀️ Light' : '🌙 Dark'}
-                  </button>
                 </div>
               </div>
             )}
