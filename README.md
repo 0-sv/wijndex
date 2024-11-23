@@ -1,11 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # 🍷 wijndex
 
 wijndex is a modern web application that helps wine enthusiasts discover the top 10 recommended wines from Albert Heijn, ranked using a sophisticated scoring algorithm that considers both user and critic ratings.
@@ -29,14 +21,11 @@ wijndex is a modern web application that helps wine enthusiasts discover the top
 - React + Vite
 - Tailwind CSS
 - Lucide React Icons
-- External data from [scrape-ah](https://github.com/0-sv/scrape-ah)
+- External data from [scrape-ah](https://github.com/0-sv/wine-scraper)
 
 ## Getting Started
 
-1. Clone the repository:
-```bash
-git clone [your-repo-url]
-```
+1. Clone the repository
 
 2. Install dependencies:
 ```bash
