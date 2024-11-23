@@ -80,22 +80,15 @@ export default function WineRecommendations({
       const priceCondition =
         (!showUnder10 && !showUnder5) ||
         (showUnder5 ? parseFloat(wine.price) < 5 : parseFloat(wine.price) < 10);
-      const typeCondition =
-        wineType === 'all'
-          ? true
-          : wineType === 'red'
-            ? wine.style.toLowerCase().includes('red')
-            : wine.style.toLowerCase().includes('white');
       const searchCondition =
         !searchQuery ||
         [
-          wine.style,           // Wine style (e.g., "Red Wine", "White Wine")
-          wine.grapeVariety,    // Grape variety
-          wine.foodPairing,     // Food pairing suggestions
-          wine.productUrl?.split('/')?.pop() // Product name from URL
-        ].some(field => field?.toLowerCase()?.includes(searchQuery.toLowerCase())
-        );
-      return priceCondition && typeCondition && searchCondition;
+          wine.style, // Wine style (e.g., "Red Wine", "White Wine")
+          wine.grapeVariety, // Grape variety
+          wine.foodPairing, // Food pairing suggestions
+          wine.productUrl?.split('/')?.pop(), // Product name from URL
+        ].some((field) => field?.toLowerCase()?.includes(searchQuery.toLowerCase()));
+      return priceCondition && searchCondition;
     });
 
   return (

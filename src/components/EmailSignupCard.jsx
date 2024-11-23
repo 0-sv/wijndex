@@ -66,9 +66,11 @@ export default function EmailSignupCard() {
             </div>
           </div>
 
-          <p className="mt-2 text-sm sm:text-base text-gray-600 dark:text-gray-400">
-            Never wonder which wine to choose again - join our weekly recommendations
-          </p>
+          <div className="flex-grow text-center">
+            <p className="mt-2 text-sm sm:text-base text-gray-600 dark:text-gray-400">
+              Never wonder which wine to choose again - join our weekly recommendations
+            </p>
+          </div>
 
           <form onSubmit={handleSubmit} className="mt-4 flex flex-col sm:flex-row gap-2">
             <input
