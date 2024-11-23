@@ -6,7 +6,6 @@ import wineGlassLogo from '/wine-glass.svg';
 function App() {
   const [showUnder10, setShowUnder10] = useState(false);
   const [showUnder5, setShowUnder5] = useState(false);
-  const [wineType, setWineType] = useState('all'); // 'all', 'red', 'white'
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const menuRef = useRef(null);
@@ -131,12 +130,11 @@ function App() {
                     >
                       💡 Show Tips
                     </button>
-                    {(showUnder10 || showUnder5 || wineType !== 'all') && (
+                    {(showUnder10 || showUnder5) && (
                       <button
                         onClick={() => {
                           setShowUnder10(false);
                           setShowUnder5(false);
-                          setWineType('all');
                           setIsMenuOpen(false);
                         }}
                         className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
@@ -144,24 +142,6 @@ function App() {
                         ❌ Clear filters
                       </button>
                     )}
-                    <button
-                      onClick={() => {
-                        setWineType('red');
-                        setIsMenuOpen(false);
-                      }}
-                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${wineType === 'red' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
-                    >
-                      🍷 Red wines
-                    </button>
-                    <button
-                      onClick={() => {
-                        setWineType('white');
-                        setIsMenuOpen(false);
-                      }}
-                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${wineType === 'white' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
-                    >
-                      🥂 White wines
-                    </button>
                     <button
                       onClick={() => {
                         setShowUnder10(!showUnder10);
@@ -190,7 +170,6 @@ function App() {
       <WineRecommendations
         showUnder10={showUnder10}
         showUnder5={showUnder5}
-        wineType={wineType}
         searchQuery={searchQuery}
       />
       <footer className="w-full bg-white dark:bg-gray-800 shadow-md mt-auto">
