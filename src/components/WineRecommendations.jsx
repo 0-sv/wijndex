@@ -92,8 +92,7 @@ export default function WineRecommendations({
           (field) => field?.toLowerCase()?.includes(searchQuery.toLowerCase())
         );
       return priceCondition && typeCondition && searchCondition;
-    })
-    .slice(0, displayCount);
+    });
 
   return (
     <div className="py-2 sm:py-8 px-1 sm:px-6 lg:px-8">
@@ -108,7 +107,7 @@ export default function WineRecommendations({
             />
           ))}
           <EmailSignupCard />
-          {sortedAndFilteredWines.slice(3, 10).map((wine, index) => (
+          {sortedAndFilteredWines.slice(3, displayCount).map((wine, index) => (
             <WineCard
               key={wine.productUrl}
               wine={wine}
@@ -118,7 +117,7 @@ export default function WineRecommendations({
           ))}
           {sortedAndFilteredWines.length >= displayCount && (
             <button
-              onClick={() => setDisplayCount(prev => prev + 10)}
+              onClick={() => setDisplayCount((prev) => prev + 10)}
               className="w-full py-3 px-4 bg-white hover:bg-gray-50 text-gray-900 font-medium rounded-lg border border-gray-200 shadow-sm transition-colors"
             >
               Show More Results
