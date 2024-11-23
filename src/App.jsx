@@ -13,7 +13,7 @@ function App() {
   const [showTips, setShowTips] = useState(() => {
     return !localStorage.getItem('tipsShown');
   });
-  
+
   const [darkMode, setDarkMode] = useState(() => {
     // Check localStorage first
     const savedMode = localStorage.getItem('darkMode');
@@ -58,12 +58,12 @@ function App() {
 
   return (
     <div className="w-full min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200 flex flex-col">
-      <TipsPopup 
-        isOpen={showTips} 
+      <TipsPopup
+        isOpen={showTips}
         onClose={() => {
           setShowTips(false);
           localStorage.setItem('tipsShown', 'true');
-        }} 
+        }}
       />
       <nav className="w-full bg-white dark:bg-gray-800 shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
@@ -122,6 +122,15 @@ function App() {
               {isMenuOpen && (
                 <div className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5">
                   <div className="py-1">
+                    <button
+                      onClick={() => {
+                        setShowTips(true);
+                        setIsMenuOpen(false);
+                      }}
+                      className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
+                    >
+                      💡 Show Tips
+                    </button>
                     {(showUnder10 || showUnder5 || wineType !== 'all') && (
                       <button
                         onClick={() => {
@@ -160,7 +169,7 @@ function App() {
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${showUnder10 ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
                     >
-                      🍷 Under €10
+                      💰 Under €10
                     </button>
                     <button
                       onClick={() => {
@@ -169,16 +178,7 @@ function App() {
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${showUnder5 ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
                     >
-                      🍷 Under €5
-                    </button>
-                    <button
-                      onClick={() => {
-                        setShowTips(true);
-                        setIsMenuOpen(false);
-                      }}
-                      className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
-                    >
-                      💡 Show Tips
+                      💰 Under €5
                     </button>
                   </div>
                 </div>
