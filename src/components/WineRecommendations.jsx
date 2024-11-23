@@ -7,6 +7,7 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [sortBy, setSortBy] = useState('score'); // 'score' or 'value'
 
   useEffect(() => {
     fetch(
@@ -37,17 +38,16 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
           const criticCountScore = Math.min(criticCountLog, 1) * 0.15; // 15% weight
 
           const totalScore = (userScore + userCountScore + criticScore + criticCountScore) * 100;
+          const valueScore = (totalScore / parseFloat(wine.price)) * 10; // Higher score per euro = better value
 
           return {
             ...wine,
             totalScore: parseFloat(totalScore.toFixed(1)),
+            valueScore: parseFloat(valueScore.toFixed(1))
           };
         });
 
-        // Sort by total score
-        const sortedWines = processedWines.sort((a, b) => b.totalScore - a.totalScore);
-
-        setWines(sortedWines);
+        setWines(processedWines);
         setLoading(false);
       })
       .catch((err) => {
@@ -65,7 +65,8 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
 
   if (error) return <div className="text-red-500 text-center p-4">{error}</div>;
 
-  const filteredWines = wines
+  const sortedAndFilteredWines = wines
+    .sort((a, b) => sortBy === 'value' ? b.valueScore - a.valueScore : b.totalScore - a.totalScore)
     .filter((wine) => {
       const priceCondition = (!showUnder10 && !showUnder5) || 
                             (showUnder5 ? parseFloat(wine.price) < 5 : parseFloat(wine.price) < 10);
@@ -86,9 +87,19 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
 
   return (
     <div className="py-2 sm:py-8 px-1 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto space-y-4">
+        <div className="flex justify-end">
+          <select
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value)}
+            className="block w-40 rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-blue-600 sm:text-sm sm:leading-6"
+          >
+            <option value="score">Best Rated</option>
+            <option value="value">Best Value</option>
+          </select>
+        </div>
         <div className="space-y-2 sm:space-y-4">
-          {filteredWines.slice(0, 3).map((wine, index) => (
+          {sortedAndFilteredWines.slice(0, 3).map((wine, index) => (
             <div
               key={wine.productUrl}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 sm:p-6 transition-transform hover:scale-[1.01]"
@@ -180,7 +191,7 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
             </div>
           ))}
           <EmailSignupCard />
-          {filteredWines.slice(3).map((wine, index) => (
+          {sortedAndFilteredWines.slice(3).map((wine, index) => (
             <div
               key={wine.productUrl}
               className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 sm:p-6 transition-transform hover:scale-[1.01]"
