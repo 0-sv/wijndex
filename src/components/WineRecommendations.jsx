@@ -3,7 +3,13 @@ import { X } from 'lucide-react';
 import EmailSignupCard from './EmailSignupCard';
 import WineCard from './WineCard';
 
-export default function WineRecommendations({ showUnder10, showUnder5, wineType, searchQuery, sortBy }) {
+export default function WineRecommendations({
+  showUnder10,
+  showUnder5,
+  wineType,
+  searchQuery,
+  sortBy,
+}) {
   const [wines, setWines] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -43,7 +49,7 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
           return {
             ...wine,
             totalScore: parseFloat(totalScore.toFixed(1)),
-            valueScore: parseFloat(valueScore.toFixed(1))
+            valueScore: parseFloat(valueScore.toFixed(1)),
           };
         });
 
@@ -66,10 +72,13 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
   if (error) return <div className="text-red-500 text-center p-4">{error}</div>;
 
   const sortedAndFilteredWines = wines
-    .sort((a, b) => sortBy === 'value' ? b.valueScore - a.valueScore : b.totalScore - a.totalScore)
+    .sort((a, b) =>
+      sortBy === 'value' ? b.valueScore - a.valueScore : b.totalScore - a.totalScore
+    )
     .filter((wine) => {
-      const priceCondition = (!showUnder10 && !showUnder5) || 
-                            (showUnder5 ? parseFloat(wine.price) < 5 : parseFloat(wine.price) < 10);
+      const priceCondition =
+        (!showUnder10 && !showUnder5) ||
+        (showUnder5 ? parseFloat(wine.price) < 5 : parseFloat(wine.price) < 10);
       const typeCondition =
         wineType === 'all'
           ? true
