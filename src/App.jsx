@@ -171,6 +171,15 @@ function App() {
                     >
                       🍷 Under €5
                     </button>
+                    <button
+                      onClick={() => {
+                        setShowTips(true);
+                        setIsMenuOpen(false);
+                      }}
+                      className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
+                    >
+                      💡 Show Tips
+                    </button>
                   </div>
                 </div>
               )}
