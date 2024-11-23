@@ -2,12 +2,11 @@ import { useState, useEffect } from 'react';
 import { ExternalLink, Star, Award, X } from 'lucide-react';
 import EmailSignupCard from './EmailSignupCard';
 
-export default function WineRecommendations({ showUnder10, showUnder5, wineType, searchQuery }) {
+export default function WineRecommendations({ showUnder10, showUnder5, wineType, searchQuery, sortBy }) {
   const [wines, setWines] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [sortBy, setSortBy] = useState('score'); // 'score' or 'value'
 
   useEffect(() => {
     fetch(
@@ -88,16 +87,6 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
   return (
     <div className="py-2 sm:py-8 px-1 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto space-y-4">
-        <div className="flex justify-end">
-          <select
-            value={sortBy}
-            onChange={(e) => setSortBy(e.target.value)}
-            className="block w-40 rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-blue-600 sm:text-sm sm:leading-6"
-          >
-            <option value="score">Best Rated</option>
-            <option value="value">Best Value</option>
-          </select>
-        </div>
         <div className="space-y-2 sm:space-y-4">
           {sortedAndFilteredWines.slice(0, 3).map((wine, index) => (
             <div

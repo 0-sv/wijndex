@@ -8,6 +8,7 @@ function App() {
   const [showUnder5, setShowUnder5] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [sortBy, setSortBy] = useState('score'); // 'score' or 'value'
   const menuRef = useRef(null);
   const [showTips, setShowTips] = useState(() => {
     return !localStorage.getItem('tipsShown');
@@ -160,6 +161,25 @@ function App() {
                     >
                       💰 Under €5
                     </button>
+                    <div className="border-t border-gray-200 dark:border-gray-700 my-1"></div>
+                    <button
+                      onClick={() => {
+                        setSortBy('score');
+                        setIsMenuOpen(false);
+                      }}
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${sortBy === 'score' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
+                    >
+                      ⭐️ Sort by Rating
+                    </button>
+                    <button
+                      onClick={() => {
+                        setSortBy('value');
+                        setIsMenuOpen(false);
+                      }}
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${sortBy === 'value' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
+                    >
+                      💎 Sort by Value
+                    </button>
                   </div>
                 </div>
               )}
@@ -171,6 +191,7 @@ function App() {
         showUnder10={showUnder10}
         showUnder5={showUnder5}
         searchQuery={searchQuery}
+        sortBy={sortBy}
       />
       <footer className="w-full bg-white dark:bg-gray-800 shadow-md mt-auto">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
