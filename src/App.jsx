@@ -60,6 +60,7 @@ function App() {
             <h1 className="hidden sm:block text-2xl font-bold text-gray-800 dark:text-white">
               wijndex
             </h1>
+          </div>
           <div className="flex-1 max-w-xl mx-4">
             <div className="relative">
               <input
@@ -164,8 +165,7 @@ function App() {
             )}
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
       <WineRecommendations
         showUnder10={showUnder10}
         showUnder5={showUnder5}
