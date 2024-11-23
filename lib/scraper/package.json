@@ -1,0 +1,21 @@
+{
+  "name": "scrape-ah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1_scrape_ah.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.2",
+    "playwright-extra": "^4.3.6",
+    "prettier": "^3.3.3",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
