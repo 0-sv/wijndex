@@ -16,14 +16,14 @@ function TipsPopup({ isOpen, onClose }) {
             food pairing ("venision").
           </li>
           <li>• If you're on a budget: filter wines under 💰 €5 or €10.</li>
+          <li>
+            • 🤑 Prices may be inaccurate, please follow the link to AH or Wine-Searcher for actual
+            prices.
+          </li>
           <li>• Switch between light and dark mode with the ☀️/🌙 button.</li>
           <li>
-            • The blue score (0-100) combines user ratings (30%), number of ratings (25%), critic scores (30%), 
-            and number of reviews (15%).
-          </li>
-          <li>
-            • Prices may be inaccurate, please follow the link to AH or Wine-Searcher for actual
-            prices.
+            • The 🔵 blue score (0-100) combines user ratings (30%), number of ratings (25%), critic
+            scores (30%), and number of reviews (15%).
           </li>
         </ul>
         <button
