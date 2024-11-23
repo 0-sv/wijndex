@@ -113,7 +113,12 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
                         {wine.productUrl.split('/').pop().split('-').join(' ').toUpperCase()}
                       </h2>
                     </div>
-                    <div className="text-2xl font-bold text-blue-600">{wine.totalScore}</div>
+                    <div className="flex items-center gap-2">
+                      <div className="text-sm font-semibold text-green-600">
+                        VALUE SCORE: {wine.valueScore}
+                      </div>
+                      <div className="text-2xl font-bold text-blue-600">{wine.totalScore}</div>
+                    </div>
                   </div>
 
                   <div className="mt-2 grid grid-cols-2 gap-1 sm:gap-4">
@@ -205,7 +210,12 @@ export default function WineRecommendations({ showUnder10, showUnder5, wineType,
                         {wine.productUrl.split('/').pop().split('-').join(' ').toUpperCase()}
                       </h2>
                     </div>
-                    <div className="text-2xl font-bold text-blue-600">{wine.totalScore}</div>
+                    <div className="flex items-center gap-2">
+                      <div className="text-sm font-semibold text-green-600">
+                        VALUE SCORE: {wine.valueScore}
+                      </div>
+                      <div className="text-2xl font-bold text-blue-600">{wine.totalScore}</div>
+                    </div>
                   </div>
 
                   <div className="mt-2 grid grid-cols-2 gap-1 sm:gap-4">
