@@ -60,27 +60,28 @@ export default function WineCard({ wine, index, setSelectedImage, language = 'en
             <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 break-words">
               {t.bestPairedWith}: <span className="font-medium">{wine.foodPairing}</span>
             </div>
-            <div className="flex flex-col items-end">
-              <div className="text-base sm:text-lg font-bold">
-                €{wine.price}
-                <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 ml-1">
-                  / {wine.unitSize}
-                </span>
-              </div>
-              <div className="text-xs text-gray-600 dark:text-gray-400 flex items-center justify-end gap-0.5">
-                <span className="hidden sm:inline">{t.valueForEuro}:</span>
-                <span className="sm:hidden">{t.valueForEuro}:</span>
-                {[...Array(Math.floor(wine.valueScore))].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                ))}
-                {wine.valueScore % 1 >= 0.5 && (
-                  <div className="relative w-4 h-4">
-                    <Star className="absolute w-4 h-4 text-yellow-400" />
-                    <div className="absolute w-2 h-4 overflow-hidden">
-                      <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+            <div className="flex flex-col items-end w-full sm:w-auto">
+              <div className="flex justify-between w-full sm:justify-end items-center gap-2">
+                <div className="text-xs text-gray-600 dark:text-gray-400 flex items-center gap-0.5 order-first sm:order-last">
+                  {t.valueForEuro}:{' '}
+                  {[...Array(Math.floor(wine.valueScore))].map((_, i) => (
+                    <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                  ))}
+                  {wine.valueScore % 1 >= 0.5 && (
+                    <div className="relative w-4 h-4">
+                      <Star className="absolute w-4 h-4 text-yellow-400" />
+                      <div className="absolute w-2 h-4 overflow-hidden">
+                        <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                      </div>
                     </div>
-                  </div>
-                )}
+                  )}
+                </div>
+                <div className="text-base sm:text-lg font-bold">
+                  €{wine.price}
+                  <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 ml-1">
+                    / {wine.unitSize}
+                  </span>
+                </div>
               </div>
             </div>
           </div>
