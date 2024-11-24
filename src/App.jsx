@@ -13,7 +13,6 @@ function App() {
   const [grapeVarieties, setGrapeVarieties] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const menuRef = useRef(null);
-  const searchRef = useRef(null);
   const [showTips, setShowTips] = useState(() => {
     return !localStorage.getItem('tipsShown');
   });
@@ -65,17 +64,6 @@ function App() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [menuRef]);
 
-  // Close search suggestions when clicking outside
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (searchRef.current && !searchRef.current.contains(event.target)) {
-        setShowSuggestions(false);
-      }
-    }
-
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [searchRef]);
 
   return (
     <div className="w-full min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200 flex flex-col">

@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { translations } from '../translations';
 import wineGlassLogo from '/wine-glass.svg';
 
@@ -18,6 +18,20 @@ export default function NavBar({
   setShowTips,
   grapeVarieties
 }) {
+  const searchRef = useRef(null);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
+  // Close search suggestions when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        setShowSuggestions(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [searchRef]);
 
   return (
     <nav className="w-full bg-white dark:bg-gray-800 shadow-md">
