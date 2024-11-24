@@ -53,6 +53,7 @@ export const translations = {
     subscribing: 'Subscribing...',
     subscribeSuccess: 'Successfully subscribed! Check your email for confirmation.',
     subscribeError: 'Failed to subscribe. Please try again.',
+    feedback: 'Send Feedback',
   },
   nl: {
     welcome: 'Welkom bij wijndex!',
@@ -108,5 +109,6 @@ export const translations = {
     subscribing: 'Bezig...',
     subscribeSuccess: 'Succesvol ingeschreven! Check je e-mail voor bevestiging.',
     subscribeError: 'Inschrijven mislukt. Probeer het opnieuw.',
+    feedback: 'Stuur Feedback',
   },
 };

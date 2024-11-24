@@ -21,6 +21,12 @@ const Footer = ({ language }) => {
             />
           </svg>
         </a>
+        <a
+          href="mailto:feedback@wijndex.com"
+          className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
+        >
+          {translations[language].feedback}
+        </a>
       </div>
     </footer>
   );
