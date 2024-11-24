@@ -30,3 +30,9 @@ Results can be viewed in:
 - `results.json` - Raw results
 - `results_deduplicated.json` - Deduplicated results
 - `index.html` - Web view of results
+
+## Serve results
+
+```bash
+python3 -m http.server 
+```
