@@ -204,6 +204,7 @@ function App() {
                     <button
                       onClick={() => {
                         setShowUnder10(!showUnder10);
+                        setShowUnder5(false); // Ensure under5 is off when toggling under10
                         setIsMenuOpen(false);
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${showUnder10 ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
@@ -213,6 +214,7 @@ function App() {
                     <button
                       onClick={() => {
                         setShowUnder5(!showUnder5);
+                        setShowUnder10(false); // Ensure under10 is off when toggling under5
                         setIsMenuOpen(false);
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${showUnder5 ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
