@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import { translations } from '../translations';
 import wineGlassLogo from '/wine-glass.svg';
 import ShareModal from './ShareModal';
+import WineWizard from './WineWizard';
 
 export default function NavBar({
   language,
@@ -24,6 +25,7 @@ export default function NavBar({
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [isWizardOpen, setIsWizardOpen] = useState(false);
 
   // Close search suggestions and menu when clicking outside
   useEffect(() => {
@@ -197,6 +199,15 @@ export default function NavBar({
                   <div className="border-t border-gray-200 dark:border-gray-700 my-1"></div>
                   <button
                     onClick={() => {
+                      setIsWizardOpen(true);
+                      setIsMenuOpen(false);
+                    }}
+                    className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
+                    {translations[language].wineWizard}
+                  </button>
+                  <button
+                    onClick={() => {
                       setIsShareModalOpen(true);
                       setIsMenuOpen(false);
                     }}
@@ -214,6 +225,30 @@ export default function NavBar({
         isOpen={isShareModalOpen} 
         onClose={() => setIsShareModalOpen(false)}
         language={language}
+      />
+      <WineWizard
+        isOpen={isWizardOpen}
+        onClose={() => setIsWizardOpen(false)}
+        language={language}
+        onComplete={(selections) => {
+          // Handle wine type
+          setSearchQuery(selections.type === 'red' ? 'rode wijn' : 
+                        selections.type === 'white' ? 'witte wijn' : 
+                        selections.type === 'rose' ? 'rosé wijn' : '');
+          
+          // Handle budget
+          setShowUnder10(selections.budget === 'under10');
+          setShowUnder5(selections.budget === 'under5');
+          
+          // Handle occasion
+          if (selections.occasion === 'gift') {
+            setSortBy('score'); // For gifts, show highest rated wines
+          } else if (selections.occasion === 'casual') {
+            setSortBy('value'); // For casual drinking, show best value
+          } else {
+            setSortBy('score'); // For dinner, show highest rated
+          }
+        }}
       />
     </nav>
   );
