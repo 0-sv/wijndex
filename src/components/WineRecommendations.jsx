@@ -52,7 +52,7 @@ export default function WineRecommendations({
           
           // Normalize to 1-10 scale
           // Using 30 as max expected value score to normalize
-          const normalizedValueScore = Math.max(1, Math.min(5, (rawValueScore / 30) * 5));
+          const normalizedValueScore = Math.max(0.5, Math.min(5, (rawValueScore / 30) * 5));
 
           return {
             ...wine,
