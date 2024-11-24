@@ -61,8 +61,8 @@ export default function WineCard({ wine, index, setSelectedImage, language = 'en
               {t.bestPairedWith}: <span className="font-medium">{wine.foodPairing}</span>
             </div>
             <div className="flex flex-col items-end w-full sm:w-auto">
-              <div className="flex justify-between w-full sm:justify-end items-center gap-2">
-                <div className="text-xs text-gray-600 dark:text-gray-400 flex items-center gap-0.5 order-first sm:order-last">
+              <div className="flex flex-col sm:flex-col w-full sm:w-auto items-end gap-2">
+                <div className="text-xs text-gray-600 dark:text-gray-400 flex items-center gap-0.5 w-full sm:w-auto justify-start sm:justify-end">
                   {t.valueForEuro}:{' '}
                   {[...Array(Math.floor(wine.valueScore))].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
