@@ -60,11 +60,16 @@ export default function WineCard({ wine, index, setSelectedImage, language = 'en
             <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 break-words">
               {t.bestPairedWith}: <span className="font-medium">{wine.foodPairing}</span>
             </div>
-            <div className="text-base sm:text-lg font-bold">
-              €{wine.price}
-              <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 ml-1">
-                / {wine.unitSize}
-              </span>
+            <div className="flex flex-col items-end">
+              <div className="text-base sm:text-lg font-bold">
+                €{wine.price}
+                <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 ml-1">
+                  / {wine.unitSize}
+                </span>
+              </div>
+              <div className="text-xs text-gray-600 dark:text-gray-400">
+                Score/€: {wine.valueScore}
+              </div>
             </div>
           </div>
 
