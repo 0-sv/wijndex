@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { translations } from './translations';
 import WineRecommendations from './components/WineRecommendations.jsx';
 import TipsPopup from './components/TipsPopup.jsx';
