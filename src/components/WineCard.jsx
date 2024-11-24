@@ -61,8 +61,8 @@ export default function WineCard({ wine, index, setSelectedImage, language = 'en
               {t.bestPairedWith}: <span className="font-medium">{wine.foodPairing}</span>
             </div>
             <div className="flex flex-col items-end w-full sm:w-auto">
-              <div className="flex flex-col sm:flex-col w-full sm:w-auto items-end gap-2">
-                <div className="text-xs text-gray-600 dark:text-gray-400 flex items-center gap-0.5 w-full sm:w-auto justify-start sm:justify-end">
+              <div className="flex sm:flex-col w-full sm:w-auto items-center sm:items-end gap-2">
+                <div className="flex-grow text-xs text-gray-600 dark:text-gray-400 flex items-center gap-0.5 sm:w-auto justify-start sm:justify-end">
                   {t.valueForEuro}:{' '}
                   {[...Array(Math.floor(wine.valueScore))].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
@@ -76,7 +76,7 @@ export default function WineCard({ wine, index, setSelectedImage, language = 'en
                     </div>
                   )}
                 </div>
-                <div className="text-base sm:text-lg font-bold">
+                <div className="text-base sm:text-lg font-bold whitespace-nowrap">
                   €{wine.price}
                   <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 ml-1">
                     / {wine.unitSize}
