@@ -47,12 +47,17 @@ export default function WineRecommendations({
           const criticCountScore = Math.min(criticCountLog, 1) * 0.15; // 15% weight
 
           const totalScore = (userScore + userCountScore + criticScore + criticCountScore) * 100;
-          const valueScore = (totalScore / parseFloat(wine.price)) * 10; // Higher score per euro = better value
+          // Calculate value score (score per euro)
+          const rawValueScore = (totalScore / parseFloat(wine.price)) * 10;
+          
+          // Normalize to 1-10 scale
+          // Using 30 as max expected value score to normalize
+          const normalizedValueScore = Math.max(1, Math.min(10, (rawValueScore / 30) * 10));
 
           return {
             ...wine,
             totalScore: parseFloat(totalScore.toFixed(1)),
-            valueScore: parseFloat(valueScore.toFixed(1)),
+            valueScore: parseFloat(normalizedValueScore.toFixed(1)),
           };
         });
 
