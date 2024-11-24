@@ -68,7 +68,8 @@ export default function WineCard({ wine, index, setSelectedImage, language = 'en
                 </span>
               </div>
               <div className="text-xs text-gray-600 dark:text-gray-400 flex items-center gap-0.5">
-                Value: {[...Array(Math.round(wine.valueScore))].map((_, i) => (
+                Value for €:{' '}
+                {[...Array(Math.round(wine.valueScore))].map((_, i) => (
                   <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
