@@ -11,6 +11,7 @@ function TipsPopup({ isOpen, onClose }) {
           Welcome to wijndex!
         </h2>
         <ul className="space-y-3 text-gray-600 dark:text-gray-300">
+          <p>Turn wine aisle uncertainty into confident choices with Wijndex.</p>
           <li>
             • Use the search bar to find wines by name, grape (e.g. "merlot"), style (🍷 "red") or
             food pairing ("venision").
