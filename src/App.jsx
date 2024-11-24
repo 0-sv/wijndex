@@ -51,17 +51,6 @@ function App() {
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);
 
-  // Close menu when clicking outside
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
-        setIsMenuOpen(false);
-      }
-    }
-
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [menuRef]);
 
 
   return (
