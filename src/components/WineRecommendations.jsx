@@ -95,7 +95,8 @@ export default function WineRecommendations({
     .filter((wine) => {
       const priceCondition =
         (!showUnder10 && !showUnder5) ||
-        (showUnder5 ? parseFloat(wine.price) < 5 : parseFloat(wine.price) < 10);
+        (showUnder5 && parseFloat(wine.price) < 5) ||
+        (showUnder10 && !showUnder5 && parseFloat(wine.price) < 10);
       const searchCondition =
         !searchQuery ||
         [
