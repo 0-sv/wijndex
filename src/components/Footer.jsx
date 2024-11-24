@@ -9,7 +9,7 @@ const Footer = ({ language }) => {
         </p>
         <div className="flex items-center gap-4">
           <a
-            href="mailto:feedback@wijndex.com"
+            href="mailto:ajsverbeek@gmail.com"
             className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
           >
             {translations[language].feedback}
