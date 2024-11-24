@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { translations } from '../translations';
 
-export default function EmailSignupCard() {
+export default function EmailSignupCard({ language = 'en' }) {
+  const t = translations[language];
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState('idle'); // idle, loading, success, error
 
@@ -61,14 +63,14 @@ export default function EmailSignupCard() {
           <div className="flex justify-between items-start">
             <div className="flex-grow text-center">
               <h2 className="text-base sm:text-xl font-semibold mt-1">
-                Weekly Wine Recommendations
+                {t.emailSignupTitle}
               </h2>
             </div>
           </div>
 
           <div className="flex-grow text-center">
             <p className="mt-2 text-sm sm:text-base text-gray-600 dark:text-gray-400">
-              Never wonder which wine to choose again - join our weekly recommendations
+              {t.emailSignupDesc}
             </p>
           </div>
 
@@ -77,7 +79,7 @@ export default function EmailSignupCard() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email"
+              placeholder={t.enterEmail}
               className="flex-grow px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 
                         placeholder-gray-500 dark:placeholder-gray-400 border border-transparent 
                         focus:border-blue-500 dark:focus:border-blue-400 focus:ring-2 focus:ring-blue-200 
@@ -90,18 +92,18 @@ export default function EmailSignupCard() {
               className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg 
                        transition-colors duration-200 disabled:opacity-50"
             >
-              {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
+              {status === 'loading' ? t.subscribing : t.subscribe}
             </button>
           </form>
 
           {status === 'success' && (
             <p className="mt-2 text-sm text-green-600 dark:text-green-400">
-              Successfully subscribed! Check your email for confirmation.
+              {t.subscribeSuccess}
             </p>
           )}
           {status === 'error' && (
             <p className="mt-2 text-sm text-red-600 dark:text-red-400">
-              Failed to subscribe. Please try again.
+              {t.subscribeError}
             </p>
           )}
         </div>

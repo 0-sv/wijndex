@@ -1,6 +1,8 @@
 import wineGlassLogo from '/wine-glass.svg';
+import { translations } from '../translations';
 
-function TipsPopup({ isOpen, onClose }) {
+function TipsPopup({ isOpen, onClose, language = 'en' }) {
+  const t = translations[language];
   if (!isOpen) return null;
 
   return (
@@ -8,27 +10,20 @@ function TipsPopup({ isOpen, onClose }) {
       <div className="bg-white dark:bg-gray-800 rounded-lg p-6 max-w-md w-full mx-4 shadow-xl">
         <h2 className="text-xl font-bold mb-4 text-gray-800 dark:text-white flex items-center gap-2">
           <img src={wineGlassLogo} alt="wijndex logo" className="w-6 h-6" />
-          Welcome to wijndex!
+          {t.welcome}
         </h2>
         <ul className="space-y-3 text-gray-600 dark:text-gray-300">
-          <p>Turn wine aisle uncertainty into confident choices with Wijndex.</p>
-          <li>
-            • Use the search bar to find wines by name, grape (e.g. "merlot"), style (🍷 "red") or
-            food pairing ("venision").
-          </li>
-          <li>• If you're on a budget: filter wines under 💰 €5 or €10.</li>
-          <li>
-            • Our database contains about 700 wines from Albert Heijn, enriched with Wine-Searcher
-            data. 🤑 Prices may be inaccurate, please follow the link to AH or Wine-Searcher for
-            actual prices.
-          </li>
-          <li>• Switch between light and dark mode with the ☀️/🌙 button.</li>
+          <p>{t.intro}</p>
+          <li>• {t.searchTip}</li>
+          <li>• {t.budgetTip}</li>
+          <li>• {t.databaseInfo}</li>
+          <li>• {t.themeTip}</li>
         </ul>
         <button
           onClick={onClose}
           className="mt-6 w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition-colors"
         >
-          Got it!
+          {t.gotIt}
         </button>
       </div>
     </div>

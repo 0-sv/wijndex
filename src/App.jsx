@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, createContext } from 'react';
+import { translations } from './translations';
 import WineRecommendations from './components/WineRecommendations.jsx';
 import TipsPopup from './components/TipsPopup.jsx';
 import wineGlassLogo from '/wine-glass.svg';
@@ -15,6 +16,11 @@ function App() {
   const searchRef = useRef(null);
   const [showTips, setShowTips] = useState(() => {
     return !localStorage.getItem('tipsShown');
+  });
+
+  const [language, setLanguage] = useState(() => {
+    const savedLang = localStorage.getItem('language');
+    return savedLang || 'en';
   });
 
   const [darkMode, setDarkMode] = useState(() => {
@@ -75,6 +81,7 @@ function App() {
     <div className="w-full min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200 flex flex-col">
       <TipsPopup
         isOpen={showTips}
+        language={language}
         onClose={() => {
           setShowTips(false);
           localStorage.setItem('tipsShown', 'true');
@@ -92,7 +99,7 @@ function App() {
             <div className="relative" ref={searchRef}>
               <input
                 type="text"
-                placeholder="Search wines..."
+                placeholder={translations[language].searchPlaceholder}
                 value={searchQuery}
                 onChange={(e) => {
                   setSearchQuery(e.target.value);
@@ -140,12 +147,24 @@ function App() {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <button
-              onClick={() => setDarkMode(!darkMode)}
-              className="p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
-            >
-              {darkMode ? '☀️' : '🌙'}
-            </button>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => {
+                  const newLang = language === 'en' ? 'nl' : 'en';
+                  setLanguage(newLang);
+                  localStorage.setItem('language', newLang);
+                }}
+                className="p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
+              >
+                {language === 'en' ? '🇳🇱' : '🇬🇧'}
+              </button>
+              <button
+                onClick={() => setDarkMode(!darkMode)}
+                className="p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
+              >
+                {darkMode ? '☀️' : '🌙'}
+              </button>
+            </div>
             <div className="relative" ref={menuRef}>
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -168,7 +187,7 @@ function App() {
                       }}
                       className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
                     >
-                      💡 Show Tips
+                      {translations[language].showTips}
                     </button>
                     {(showUnder10 || showUnder5) && (
                       <button
@@ -179,7 +198,7 @@ function App() {
                         }}
                         className="w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
                       >
-                        ❌ Clear filters
+                        {translations[language].clearFilters}
                       </button>
                     )}
                     <button
@@ -189,7 +208,7 @@ function App() {
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${showUnder10 ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
                     >
-                      💰 Under €10
+                      {translations[language].under10}
                     </button>
                     <button
                       onClick={() => {
@@ -198,7 +217,7 @@ function App() {
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${showUnder5 ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
                     >
-                      💰 Under €5
+                      {translations[language].under5}
                     </button>
                     <div className="border-t border-gray-200 dark:border-gray-700 my-1"></div>
                     <button
@@ -208,7 +227,7 @@ function App() {
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${sortBy === 'score' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
                     >
-                      ⭐️ Sort by Rating
+                      {translations[language].sortByRating}
                     </button>
                     <button
                       onClick={() => {
@@ -217,7 +236,7 @@ function App() {
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${sortBy === 'value' ? 'bg-gray-200 dark:bg-gray-700' : ''}`}
                     >
-                      💎 Sort by Value
+                      {translations[language].sortByValue}
                     </button>
                   </div>
                 </div>
@@ -231,12 +250,13 @@ function App() {
         showUnder5={showUnder5}
         searchQuery={searchQuery}
         sortBy={sortBy}
+        language={language}
         onGrapeVarietiesLoaded={setGrapeVarieties}
       />
       <footer className="w-full bg-white dark:bg-gray-800 shadow-md mt-auto">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <p className="text-sm text-gray-600 dark:text-gray-400">
-            © 2024 wijndex. All rights reserved.
+            {translations[language].copyright}
           </p>
           <a
             href="https://github.com/0-sv/wijndex"
@@ -251,7 +271,7 @@ function App() {
                 clipRule="evenodd"
               />
             </svg>
-            <span>View on GitHub</span>
+            <span>{translations[language].viewOnGithub}</span>
           </a>
         </div>
       </footer>

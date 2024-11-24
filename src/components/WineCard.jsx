@@ -1,6 +1,8 @@
 import { ExternalLink, Star, Award } from 'lucide-react';
+import { translations } from '../translations';
 
-export default function WineCard({ wine, index, setSelectedImage }) {
+export default function WineCard({ wine, index, setSelectedImage, language = 'en' }) {
+  const t = translations[language];
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 sm:p-6 transition-transform hover:scale-[1.01]">
       <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -32,7 +34,7 @@ export default function WineCard({ wine, index, setSelectedImage }) {
                 <span className="ml-1 font-semibold">{wine.userRating}/5</span>
               </div>
               <span className="text-gray-600 dark:text-gray-400">
-                ({wine.amountOfUserRatings} ratings)
+                ({wine.amountOfUserRatings} {t.ratings})
               </span>
             </div>
             <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm">
@@ -41,22 +43,22 @@ export default function WineCard({ wine, index, setSelectedImage }) {
                 <span className="ml-1 font-semibold">{wine.criticScore}/100</span>
               </div>
               <span className="text-gray-600 dark:text-gray-400">
-                ({wine.amountOfCriticReviews || 0} reviews)
+                ({wine.amountOfCriticReviews || 0} {t.reviews})
               </span>
             </div>
             <div className="flex items-center gap-1 sm:gap-2">
-              <span className="font-semibold text-xs sm:text-sm">Style:</span>
+              <span className="font-semibold text-xs sm:text-sm">{t.style}:</span>
               <span className="text-xs sm:text-sm truncate">{wine.style}</span>
             </div>
             <div className="flex items-center gap-1 sm:gap-2">
-              <span className="font-semibold text-xs sm:text-sm">Grape:</span>
+              <span className="font-semibold text-xs sm:text-sm">{t.grape}:</span>
               <span className="text-xs sm:text-sm truncate">{wine.grapeVariety}</span>
             </div>
           </div>
 
           <div className="mt-3 sm:mt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-1 sm:gap-2">
             <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 break-words">
-              Best paired with: <span className="font-medium">{wine.foodPairing}</span>
+              {t.bestPairedWith}: <span className="font-medium">{wine.foodPairing}</span>
             </div>
             <div className="text-base sm:text-lg font-bold">
               €{wine.price}
@@ -73,7 +75,7 @@ export default function WineCard({ wine, index, setSelectedImage }) {
               rel="noopener noreferrer"
               className="inline-flex items-center px-3 py-1 text-sm font-medium text-blue-600 hover:text-blue-800"
             >
-              View at AH <ExternalLink className="w-4 h-4 ml-1" />
+              {t.viewAtAH} <ExternalLink className="w-4 h-4 ml-1" />
             </a>
             <a
               href={wine.wineSearcherUrl}
@@ -81,7 +83,7 @@ export default function WineCard({ wine, index, setSelectedImage }) {
               rel="noopener noreferrer"
               className="inline-flex items-center px-3 py-1 text-sm font-medium text-blue-600 hover:text-blue-800"
             >
-              View on Wine-Searcher <ExternalLink className="w-4 h-4 ml-1" />
+              {t.viewOnWineSearcher} <ExternalLink className="w-4 h-4 ml-1" />
             </a>
           </div>
         </div>
