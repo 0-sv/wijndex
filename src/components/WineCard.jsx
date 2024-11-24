@@ -23,14 +23,6 @@ export default function WineCard({ wine, index, setSelectedImage }) {
                 {wine.productUrl.split('/').pop().split('-').join(' ').toUpperCase()}
               </h2>
             </div>
-            <div className="flex flex-col items-end gap-1">
-              <div className="text-2xl font-bold text-blue-600">
-                RATING: {wine.totalScore}
-              </div>
-              <div className="text-sm font-semibold text-green-600">
-                VALUE SCORE: {wine.valueScore}
-              </div>
-            </div>
           </div>
 
           <div className="mt-2 grid grid-cols-2 gap-1 sm:gap-4">
