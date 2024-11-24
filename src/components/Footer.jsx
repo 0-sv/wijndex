@@ -20,7 +20,6 @@ const Footer = ({ language }) => {
               clipRule="evenodd"
             />
           </svg>
-          <span>{translations[language].viewOnGithub}</span>
         </a>
       </div>
     </footer>

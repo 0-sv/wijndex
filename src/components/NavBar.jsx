@@ -18,7 +18,7 @@ export default function NavBar({
   sortBy,
   setSortBy,
   setShowTips,
-  grapeVarieties
+  grapeVarieties,
 }) {
   const searchRef = useRef(null);
   const menuRef = useRef(null);
@@ -70,9 +70,7 @@ export default function NavBar({
             {showSuggestions && grapeVarieties.length > 0 && searchQuery && (
               <div className="absolute z-50 w-full mt-1 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 max-h-60 overflow-y-auto">
                 {grapeVarieties
-                  .filter(variety => 
-                    variety.toLowerCase().includes(searchQuery.toLowerCase())
-                  )
+                  .filter((variety) => variety.toLowerCase().includes(searchQuery.toLowerCase()))
                   .map((variety, index) => (
                     <button
                       key={index}
@@ -221,8 +219,8 @@ export default function NavBar({
           </div>
         </div>
       </div>
-      <ShareModal 
-        isOpen={isShareModalOpen} 
+      <ShareModal
+        isOpen={isShareModalOpen}
         onClose={() => setIsShareModalOpen(false)}
         language={language}
       />
@@ -232,14 +230,14 @@ export default function NavBar({
         language={language}
         onComplete={(selections) => {
           // Handle wine type
-          setSearchQuery(selections.type === 'red' ? 'rode wijn' : 
-                        selections.type === 'white' ? 'witte wijn' : 
-                        selections.type === 'rose' ? 'rosé wijn' : '');
-          
+          setSearchQuery(
+            selections.type === 'red' ? 'red' : selections.type === 'white' ? 'white' : ''
+          );
+
           // Handle budget
           setShowUnder10(selections.budget === 'under10');
           setShowUnder5(selections.budget === 'under5');
-          
+
           // Handle occasion
           if (selections.occasion === 'gift') {
             setSortBy('score'); // For gifts, show highest rated wines

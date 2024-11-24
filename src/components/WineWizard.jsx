@@ -7,7 +7,7 @@ export default function WineWizard({ isOpen, onClose, language, onComplete }) {
   const [selections, setSelections] = useState({
     type: '',
     budget: '',
-    occasion: ''
+    occasion: '',
   });
 
   const t = translations[language];
@@ -38,10 +38,8 @@ export default function WineWizard({ isOpen, onClose, language, onComplete }) {
         >
           <X className="w-6 h-6" />
         </button>
-        
-        <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
-          {t.wizardTitle}
-        </h2>
+
+        <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">{t.wizardTitle}</h2>
 
         {step === 1 && (
           <div className="space-y-4">
@@ -49,7 +47,6 @@ export default function WineWizard({ isOpen, onClose, language, onComplete }) {
             {[
               { value: 'red', label: t.wizardRed },
               { value: 'white', label: t.wizardWhite },
-              { value: 'rose', label: t.wizardRose }
             ].map((option) => (
               <button
                 key={option.value}
@@ -75,7 +72,7 @@ export default function WineWizard({ isOpen, onClose, language, onComplete }) {
             {[
               { value: 'any', label: t.wizardAny },
               { value: 'under10', label: t.wizardUnder10 },
-              { value: 'under5', label: t.wizardUnder5 }
+              { value: 'under5', label: t.wizardUnder5 },
             ].map((option) => (
               <button
                 key={option.value}
@@ -101,7 +98,7 @@ export default function WineWizard({ isOpen, onClose, language, onComplete }) {
             {[
               { value: 'casual', label: t.wizardCasual },
               { value: 'dinner', label: t.wizardDinner },
-              { value: 'gift', label: t.wizardGift }
+              { value: 'gift', label: t.wizardGift },
             ].map((option) => (
               <button
                 key={option.value}
