@@ -17,18 +17,11 @@ function TipsPopup({ isOpen, onClose }) {
           </li>
           <li>• If you're on a budget: filter wines under 💰 €5 or €10.</li>
           <li>
-            • Our database contains about 1,000 wines from Albert Heijn and Wine-Searcher. 🤑 Prices
-            may be inaccurate, please follow the link to AH or Wine-Searcher for actual prices.
+            • Our database contains about 700 wines from Albert Heijn, enriched with Wine-Searcher
+            data. 🤑 Prices may be inaccurate, please follow the link to AH or Wine-Searcher for
+            actual prices.
           </li>
           <li>• Switch between light and dark mode with the ☀️/🌙 button.</li>
-          <li>
-            • The 🔵 blue score (0-100) combines user ratings (30%), number of ratings (25%), critic
-            scores (30%), and number of reviews (15%).
-          </li>
-          <li>
-            • The 💎 value score shows the best quality for your money - it's calculated by dividing
-            the blue score by the price.
-          </li>
         </ul>
         <button
           onClick={onClose}

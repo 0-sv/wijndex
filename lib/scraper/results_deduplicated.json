@@ -211,23 +211,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi440931/los-molinos-wit",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi53565/los-molinos-wit"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830373339?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/los-molinos-wit",
-    "criticScore": 81,
-    "userRating": 3,
-    "amountOfUserRatings": 2,
-    "style": "White - Tropical and Balanced",
-    "grapeVariety": "Macabeo (Viura)",
-    "foodPairing": "Chicken and Turkey",
-    "amountOfCriticReviews": 2
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi34361/undurraga-merlot",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303936323132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -311,22 +294,6 @@
     "price": 4.49,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/fantini-pecorino",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222369/ah-merlot",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi222345/ah-merlot"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373837393335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-merlot",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -469,22 +436,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi222355/ah-stevige-chileense-huiswijn-rood",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi222368/ah-stevige-chileense-huiswijn-rood"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303233343930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.69,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-stevige-chileense-huiswijn-rood",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi419990/ah-excellent-selectie-cangrande-valpolicella-ripasso",
     "alternativeUrls": [
       "https://www.ah.nl/producten/product/wi559304/ah-excellent-selectie-cangrande-valpolicella-ripasso"
@@ -514,22 +465,6 @@
     "grapeVariety": "Chardonnay",
     "foodPairing": "Mushrooms",
     "amountOfCriticReviews": 7
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222357/ah-fris-en-droge-franse-huiswijn-wit",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi222370/ah-fris-en-droge-franse-huiswijn-wit"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393837333038?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.89,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-fris-en-droge-franse-huiswijn-wit",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi93757/valdivieso-chardonnay",
@@ -636,22 +571,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi222373/ah-sauvignon-blanc",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi222337/ah-sauvignon-blanc"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303934333035?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-sauvignon-blanc",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi160698/campo-viejo-rioja-tempranillo",
     "alternativeUrls": [
       "https://www.ah.nl/producten/product/wi559305/campo-viejo-rioja-tempranillo"
@@ -713,22 +632,6 @@
     "grapeVariety": "Macabeo (Viura)",
     "foodPairing": "Chicken and Turkey",
     "amountOfCriticReviews": 2
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222360/ah-vol-en-droge-zuid-afrikaanse-huiswijn-wit",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi222372/ah-vol-en-droge-zuid-afrikaanse-huiswijn-wit"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393632373831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.89,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-vol-en-droge-zuid-afrikaanse-huiswijn-wit",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi222350/ah-pinot-grigio",
@@ -932,20 +835,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi222353/ah-soepele-zuid-afrikaanse-huiswijn-rood",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393632373830?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.69,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-soepele-zuid-afrikaanse-huiswijn-rood",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi440890/puklavec-en-friends-sauvignon-blanc-en-pinot-grigio",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303739393437?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -1018,20 +907,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi222362/ah-fris-en-droge-chileense-huiswijn-wit",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303038393830?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.89,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-fris-en-droge-chileense-huiswijn-wit",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi365931/mooi-kaap-droe-steen",
     "alternativeUrls": [
       "https://www.ah.nl/producten/product/wi387111/mooi-kaap-droe-steen"
@@ -1064,42 +939,12 @@
     "amountOfCriticReviews": 2
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi199585/liebfraumilch-qualitatswein",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373432323233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.99,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/liebfraumilch-qualitatswein",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi482639/grange-de-malivet-chardonnay-wooded",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303639323236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
     "price": 6.65,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/grange-de-malivet-chardonnay-wooded",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222351/ah-fruitige-franse-huiswijn-rood",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi222366/ah-fruitige-franse-huiswijn-rood"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303131373933?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.89,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-fruitige-franse-huiswijn-rood",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -1121,23 +966,6 @@
     "grapeVariety": "Red Blend",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 16
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi183614/ah-biologisch-chardonnay",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi166918/ah-biologisch-chardonnay",
-      "https://www.ah.nl/producten/product/wi188065/ah-biologisch-chardonnay"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303131383031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.45,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-biologisch-chardonnay",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi132984/hardys-bin-141-colombard-chardonnay",
@@ -1273,22 +1101,6 @@
     "grapeVariety": "Cava Blend",
     "foodPairing": "Manchego and Parmesan",
     "amountOfCriticReviews": 9
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi401918/ah-fris-en-droge-franse-huiswijn-rose",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi401921/ah-fris-en-droge-franse-huiswijn-rose"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303038393831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.89,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-fris-en-droge-franse-huiswijn-rose",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi411748/cono-sur-bicicleta-chardonnay",
@@ -1567,20 +1379,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi60539/ah-advocaat-van-scharreleieren",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373331313338?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.19,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-advocaat-van-scharreleieren",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi132635/pierre-de-prunet-rose",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303632313030?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -1611,20 +1409,6 @@
     "amountOfCriticReviews": 2
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi401920/ah-vol-en-halfzoete-zuid-afrikaanse-rose",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393632373832?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.69,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-vol-en-halfzoete-zuid-afrikaanse-rose",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi118107/oveja-negra-chardonnay-viognier",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393731393839?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -1640,22 +1424,6 @@
     "amountOfCriticReviews": 20
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi222358/ah-vol-en-halfzoete-zuid-afrikaanse-wit",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi222371/ah-vol-en-halfzoete-zuid-afrikaanse-wit"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393837333039?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.89,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-vol-en-halfzoete-zuid-afrikaanse-wit",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi164119/stormhoek-sauvignon-blanc",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363931313933?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary",
@@ -1669,20 +1437,6 @@
     "grapeVariety": "Sauvignon Blanc",
     "foodPairing": "Goats' Cheese and Feta",
     "amountOfCriticReviews": 8
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi1638/crodino-biondo-6-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313238303236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.99,
-    "unitSize": "6 x 175 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/crodino-biondo-6-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi99219/lindeman-s-bin-40-merlot",
@@ -1925,20 +1679,6 @@
     "amountOfCriticReviews": 7
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi518859/schweppes-virgin-mojito",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303537343332?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.19,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/schweppes-virgin-mojito",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi387118/ah-excellent-selectie-cotes-du-rhone-villages",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313033353734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -2043,23 +1783,6 @@
     "amountOfCriticReviews": 2
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi440929/los-molinos-rood",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi123561/los-molinos-rood"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830373431?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/los-molinos-rood",
-    "criticScore": 85,
-    "userRating": 3.5,
-    "amountOfUserRatings": 26,
-    "style": "Red - Rich and Intense",
-    "grapeVariety": "Tempranillo",
-    "foodPairing": "Lamb",
-    "amountOfCriticReviews": 17
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi128227/lindeman-s-bin-95-sauvignon-blanc",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303936323836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -2073,20 +1796,6 @@
     "grapeVariety": "Sauvignon Blanc",
     "foodPairing": "Cheddar and Gruyere",
     "amountOfCriticReviews": 42
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi421157/vina-albali-wit",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373936333434?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.99,
-    "unitSize": "187 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/vina-albali-wit",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi62515/cecchi-chianti",
@@ -2163,34 +1872,6 @@
     "grapeVariety": "Cabernet Sauvignon - Carmenere",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 12
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222361/ah-vol-en-droge-australische-huiswijn-wit",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313033323636?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.69,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-vol-en-droge-australische-huiswijn-wit",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi421179/vina-albali-rood",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50363632333839?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.99,
-    "unitSize": "187 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/vina-albali-rood",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi128241/cave-de-beblenheim-pinot-gris",
@@ -2353,34 +2034,6 @@
     "amountOfCriticReviews": 30
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi195779/rucio-sangria",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50303530363635?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.79,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/rucio-sangria",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi441026/slurp-wit",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830343231?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/slurp-wit",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi160504/stormhoek-cape-rose",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383332363635?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -2484,20 +2137,6 @@
     "amountOfCriticReviews": 23
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi441023/slurp-slurpie-rose",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830343230?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/slurp-slurpie-rose",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi135312/aliwen-cabernet-sauvignon-syrah-reserva",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363036363537?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -2511,20 +2150,6 @@
     "grapeVariety": "Cabernet - Syrah/Shiraz",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 8
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222354/ah-soepele-australische-huiswijn-rood",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303038393832?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.69,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-soepele-australische-huiswijn-rood",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi498150/free-feather-rose-alcoholvrij",
@@ -2556,22 +2181,6 @@
     "amountOfCriticReviews": 9
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi186634/ah-wijncervelaat",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi378545/ah-wijncervelaat"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393132353537?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.45,
-    "unitSize": "150 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-wijncervelaat",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi401832/ah-excellent-selectie-chianti-classico",
     "alternativeUrls": [
       "https://www.ah.nl/producten/product/wi440935/ah-excellent-selectie-chianti-classico"
@@ -2580,20 +2189,6 @@
     "price": 6.37,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-excellent-selectie-chianti-classico",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222376/ah-fris-en-droge-zuid-afrikaanse-wijntap-wit",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303536333030?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 12.45,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-fris-en-droge-zuid-afrikaanse-wijntap-wit",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -2615,22 +2210,6 @@
     "grapeVariety": "Chardonnay",
     "foodPairing": "Chicken and Turkey",
     "amountOfCriticReviews": 21
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222367/ah-soepele-spaanse-huiswijn-rood",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi222352/ah-soepele-spaanse-huiswijn-rood"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50313439323734?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-soepele-spaanse-huiswijn-rood",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi127960/wild-pig-merlot",
@@ -2690,23 +2269,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi440930/los-molinos-rose",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi121507/los-molinos-rose"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830373430?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/los-molinos-rose",
-    "criticScore": 84,
-    "userRating": 2.5,
-    "amountOfUserRatings": 2,
-    "style": "Rose - Rich and Fruity",
-    "grapeVariety": "Tempranillo",
-    "foodPairing": "Tomato-based Dishes",
-    "amountOfCriticReviews": 4
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi371131/welmoed-pinot-grigio",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303938383934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -2720,20 +2282,6 @@
     "grapeVariety": "Pinot Grigio",
     "foodPairing": "Goats' Cheese and Feta",
     "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222356/contenda-red-tempranillo",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830363830?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.49,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/contenda-red-tempranillo",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi155453/norton-coleccion-chardonnay",
@@ -2794,20 +2342,6 @@
     "grapeVariety": "Merlot",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 69
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222359/ah-fris-en-droge-zuid-afrikaanse-witte-wijn",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393632373739?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.89,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-fris-en-droge-zuid-afrikaanse-witte-wijn",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi421950/cune-rueda-verdejo",
@@ -2874,22 +2408,6 @@
     "grapeVariety": "Syrah",
     "foodPairing": "Salads and Green Vegetables",
     "amountOfCriticReviews": 12
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi183612/ah-biologisch-cabernet-sauvignon",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi167299/ah-biologisch-cabernet-sauvignon"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303131373932?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.45,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-biologisch-cabernet-sauvignon",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi222349/ah-moscato",
@@ -2994,20 +2512,6 @@
     "grapeVariety": "Chardonnay",
     "foodPairing": "Mushrooms",
     "amountOfCriticReviews": 99
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222379/ah-soepele-zuid-afrikaanse-wijntap-rood",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303437343839?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.29,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-soepele-zuid-afrikaanse-wijntap-rood",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi411213/cono-sur-bicicleta-pinot-noir",
@@ -3157,20 +2661,6 @@
     "amountOfCriticReviews": 10
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi222363/contenda-white-airen",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830363831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.49,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/contenda-white-airen",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi411744/ah-excellent-selectie-cotes-de-provence-rose",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363736323430?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
@@ -3229,20 +2719,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi459652/mucho-mas-bag-in-box",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373234353238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 21.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/mucho-mas-bag-in-box",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi183479/terra-viva-bio-marche-sangiovese",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303839393438?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -3256,34 +2732,6 @@
     "grapeVariety": "Sangiovese",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 1
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi185775/ah-biologisch-witte-wijnazijn",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303632313838?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.39,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-biologisch-witte-wijnazijn",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi225296/wild-pig-chardonnay-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50313538363139?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.29,
-    "unitSize": "1,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/wild-pig-chardonnay-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi570716/el-veloz-chardonnay",
@@ -3434,22 +2882,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi222419/ah-pinotage-rose",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi222340/ah-pinotage-rose"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303234363637?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-pinotage-rose",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi195124/terra-viva-bio-prosecco-doc",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373933333233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -3522,20 +2954,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi58479/ah-biologisch-rode-wijnazijn",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303630373836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.39,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-biologisch-rode-wijnazijn",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi411214/cono-sur-cabernet-sauvignon-carmenere-syrah-bio",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393632373737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -3579,20 +2997,6 @@
     "grapeVariety": "Nero d'Avola",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 5
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi441025/vina-albali-organic-verdejo-wit-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303235303737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 15.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/vina-albali-organic-verdejo-wit-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi99189/norton-coleccion-sauvignon-blanc",
@@ -3772,20 +3176,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi470446/g-a-schmitt-mosel-weisswein",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353930363930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.79,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/g-a-schmitt-mosel-weisswein",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi139789/adobe-cabernet-sauvignon-reserva-organic",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373834303930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -3836,20 +3226,6 @@
     "price": 6.99,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/hola-sparkling-brut-alcoholvrij",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi441024/slurp-slurpie-rood",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303736363734?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/slurp-slurpie-rood",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -4149,20 +3525,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi1446/jerez-sherry-887-medium",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50303133373833?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 7.99,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/jerez-sherry-887-medium",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi67876/cecchi-chianti-classico",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363738303036?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -4252,20 +3614,6 @@
     "grapeVariety": "Sauvignon Blanc",
     "foodPairing": "Meaty and Oily Fish",
     "amountOfCriticReviews": 9
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi436993/gordon-s-pink-gin-en-tonic",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303331353638?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/gordon-s-pink-gin-en-tonic",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi570741/chateau-amsterdam-sauvignon-blanc",
@@ -4521,20 +3869,6 @@
     "amountOfCriticReviews": 75
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi440976/hardys-wit-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830343430?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 15.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/hardys-wit-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi212130/galilei-bellini-frizzante-peach",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545238333936323533?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -4607,22 +3941,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi115255/ah-gekookte-wijnzuurkool",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi41128/ah-gekookte-wijnzuurkool"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393437353731?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 0.99,
-    "unitSize": "520 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-gekookte-wijnzuurkool",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi169057/jacob-s-creek-classic-merlot",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50303233333437?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
@@ -4636,20 +3954,6 @@
     "grapeVariety": "Merlot",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 52
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi511919/de-kuyper-pornstar-martini-0-alcoholvrij",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383331363436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "200 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/de-kuyper-pornstar-martini-0-alcoholvrij",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi165217/cadis-soave",
@@ -4679,35 +3983,6 @@
     "grapeVariety": "Chardonnay",
     "foodPairing": "Chicken and Turkey",
     "amountOfCriticReviews": 34
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi56218/delica-tokkelroom",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353733373931?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 5.99,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/delica-tokkelroom",
-    "criticScore": null,
-    "userRating": 3,
-    "amountOfUserRatings": null,
-    "style": "Liqueur - Cream",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi440975/hardys-rood-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830373432?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 15.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/hardys-rood-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi224858/galilei-hugo-rose",
@@ -4781,21 +4056,6 @@
     "grapeVariety": "Verdejo",
     "foodPairing": "Chicken and Turkey",
     "amountOfCriticReviews": 1
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi440918/cadis-valpolicella-ripasso",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383236333838?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.49,
-    "unitSize": "375 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/cadis-valpolicella-ripasso",
-    "criticScore": 87,
-    "userRating": 3,
-    "amountOfUserRatings": 4,
-    "style": "Red - Rich and Intense",
-    "grapeVariety": "Valpolicella Blend",
-    "foodPairing": "Beef and Venison",
-    "amountOfCriticReviews": 6
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi164923/saint-roche-blanc-organic-wine",
@@ -4900,20 +4160,6 @@
     "amountOfCriticReviews": 1
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi34091/vruchtenwijn-frambozen-bessen",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50313433303237?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.99,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/vruchtenwijn-frambozen-bessen",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi411210/cono-sur-bicicleta-cabernet-sauvignon",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545236313733353930?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
@@ -4984,20 +4230,6 @@
     "grapeVariety": "Merlot",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 16
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi479231/teisseire-zero-mojito-siroop",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313138383230?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.25,
-    "unitSize": "0,6 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/teisseire-zero-mojito-siroop",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi385249/barrels-and-drums-chardonnay-alcoholvrij",
@@ -5394,20 +4626,6 @@
     "amountOfCriticReviews": 3
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi387204/siebrand-amaretto",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363932363332?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 5.79,
-    "unitSize": "0,7 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/siebrand-amaretto",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi168239/graves-superieures-blanc",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50313432393634?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
@@ -5435,20 +4653,6 @@
     "grapeVariety": "Pinot Grigio",
     "foodPairing": "White Fish",
     "amountOfCriticReviews": 19
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi34290/jerez-sherry-887-fino",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50313736353235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 7.99,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/jerez-sherry-887-fino",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi441003/sangre-de-toro-wit-alcoholvrij",
@@ -5480,21 +4684,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi366156/bombay-gin-en-tonic",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313136363232?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.59,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/bombay-gin-en-tonic",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi387102/ah-excellent-selectie-coteaux-bourguignons-chardonnay",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373430383333?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
@@ -5515,20 +4704,6 @@
     "price": 6.99,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/sarria-verdejo",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi479230/teisseire-zero-pina-colada-siroop",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313138383639?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.25,
-    "unitSize": "0,6 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/teisseire-zero-pina-colada-siroop",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -5564,23 +4739,6 @@
     "style": null,
     "grapeVariety": null,
     "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi122232/smirnoff-ice",
-    "alternativeUrls": [
-      "https://www.ah.nl/producten/product/wi194365/smirnoff-ice"
-    ],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303631393134?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.99,
-    "unitSize": "0,7 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/smirnoff-ice",
-    "criticScore": null,
-    "userRating": 4,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi396121/baglio-di-grisi-grillo-siciliane",
@@ -5831,40 +4989,12 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi198711/finnegan-whisky-cream",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353836333639?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 6.29,
-    "unitSize": "0,7 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/finnegan-whisky-cream",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi365807/slurp-sweet",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830343138?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
     "price": 5.29,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/slurp-sweet",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi492373/origin-chardonnay",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303933343032?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.29,
-    "unitSize": "2,25 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/origin-chardonnay",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -5968,34 +5098,6 @@
     "price": 8.99,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/stellenb-vineyards-pinotage",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi500270/teisseire-zero-passion-fruit-martini-siroop",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313138383739?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.25,
-    "unitSize": "0,6 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/teisseire-zero-passion-fruit-martini-siroop",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi574223/stelz-hard-iced-tea-green-tea-lemon",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303735303537?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/stelz-hard-iced-tea-green-tea-lemon",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -6147,20 +5249,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi441010/vina-albali-organic-tempranillo-rood-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303235303736?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 15.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/vina-albali-organic-tempranillo-rood-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi93772/valdivieso-merlot-winemaker-reserva",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363437393738?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -6248,21 +5336,6 @@
     "amountOfCriticReviews": 33
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi511921/de-kuyper-mojito-0",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383331363437?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "200 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/de-kuyper-mojito-0",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi178315/ironstone-chardonnay",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303831393031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -6306,35 +5379,6 @@
     "grapeVariety": "Cabernet - Syrah - Tempranillo",
     "foodPairing": "Lamb",
     "amountOfCriticReviews": 1
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi55488/breezer-orange",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303639383835?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "275 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/breezer-orange",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi436950/malibu-pina-colada",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313235373431?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/malibu-pina-colada",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi171570/faber-rose-alcoholvrij",
@@ -6409,20 +5453,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi212127/li-limoncellow",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353733363438?revLabel=5&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.99,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/li-limoncellow",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi192808/codorniu-clasico-semi-sec-organic",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393632373533?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -6464,35 +5494,6 @@
     "grapeVariety": "Rose Blend",
     "foodPairing": "Tomato-based Dishes",
     "amountOfCriticReviews": 19
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi182952/jack-daniels-whiskey-en-coca-cola",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393330323333?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.99,
-    "unitSize": "330 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/jack-daniels-whiskey-en-coca-cola",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi179534/gordon-s-gin-en-tonic",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393336373632?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/gordon-s-gin-en-tonic",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi440888/porcupine-ridge-sauvignon-blanc",
@@ -6586,20 +5587,6 @@
     "amountOfCriticReviews": 7
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi511925/de-kuyper-strawberry-daiquiri-0-alcoholvrij",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383331363435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "200 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/de-kuyper-strawberry-daiquiri-0-alcoholvrij",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi167838/echo-falls-white-zinfandel",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50313239373138?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary",
@@ -6628,34 +5615,6 @@
     "grapeVariety": "Rose Blend",
     "foodPairing": "Tomato-based Dishes",
     "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi387207/hooghoudt-passion-likorette",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353536303332?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 6.99,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/hooghoudt-passion-likorette",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi496469/stelz-hard-seltzer-mix-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303636313538?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.69,
-    "unitSize": "4 x 0,25 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/stelz-hard-seltzer-mix-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi132983/villa-antinori-bianco-toscana",
@@ -6803,49 +5762,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi560574/ish-spritz-alcoholvrij",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303332343231?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.99,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ish-spritz-alcoholvrij",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi481579/les-dauphins-cellier-des-dauphins-rouge-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303830353834?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 13.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/les-dauphins-cellier-des-dauphins-rouge-wijntap",
-    "criticScore": 84,
-    "userRating": 3.5,
-    "amountOfUserRatings": 12,
-    "style": "Red - Rich and Intense",
-    "grapeVariety": "Southern Rhone Red Blend",
-    "foodPairing": "Lamb",
-    "amountOfCriticReviews": 6
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi492374/origin-sauvignon-blanc-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373834343631?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.29,
-    "unitSize": "2,25 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/origin-sauvignon-blanc-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi369166/mirabeau-en-provence-rose",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50323134373136?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -6906,35 +5822,6 @@
     "amountOfCriticReviews": 11
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi198900/malibu-rum-en-cola",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353733303037?revLabel=5&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/malibu-rum-en-cola",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi225996/ah-wijnglas-facet",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303835373436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.59,
-    "unitSize": "10 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-wijnglas-facet",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi436404/girorosso-puglia",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303633313936?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -6992,20 +5879,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi191907/saitaku-mirin-rijstwijn",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303631383234?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.69,
-    "unitSize": "150 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/saitaku-mirin-rijstwijn",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi69581/dow-s-fine-tawny-port",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383239343236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -7034,21 +5907,6 @@
     "grapeVariety": "Avesso",
     "foodPairing": "Chicken and Turkey",
     "amountOfCriticReviews": 17
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi168662/warninks-advocaat-scharrelei",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353733373939?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 6.19,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/warninks-advocaat-scharrelei",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Advocaat",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi2688/martini-extra-dry",
@@ -7154,35 +6012,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi574220/stelz-raspberry-and-passion-6-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303631393335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.99,
-    "unitSize": "6 x 0,25 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/stelz-raspberry-and-passion-6-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi93882/warre-port-otima-10-year-tawny",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363030333234?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.49,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/warre-port-otima-10-year-tawny",
-    "criticScore": 90,
-    "userRating": 4,
-    "amountOfUserRatings": 33,
-    "style": "Dessert - Rich and Warming",
-    "grapeVariety": "Port Blend Red",
-    "foodPairing": "Chocolate and Caramel",
-    "amountOfCriticReviews": 30
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi435800/barros-tawny-port",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353638323633?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
@@ -7211,34 +6040,6 @@
     "grapeVariety": "Chenin Blanc",
     "foodPairing": "Cheddar and Gruyere",
     "amountOfCriticReviews": 2
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi559303/wild-pig-sauvignon-blanc-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303932323930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.29,
-    "unitSize": "1,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/wild-pig-sauvignon-blanc-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi510896/leitz-motiv-sparkling-white",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303130333739?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.49,
-    "unitSize": "75 cl",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/leitz-motiv-sparkling-white",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi560446/ah-excellent-selectie-martinez-port-lbv",
@@ -7344,20 +6145,6 @@
     "amountOfCriticReviews": 127
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi162053/belem-madeira",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393532343732?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.99,
-    "unitSize": "100 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/belem-madeira",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi436994/sibaris-carmenere-gran-reserva",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50323334313938?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
@@ -7371,35 +6158,6 @@
     "grapeVariety": "Carmenere",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 20
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi55489/breezer-lime",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303639333936?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "275 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/breezer-lime",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi198901/malibu-rum-en-pear",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353733303038?revLabel=117&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/malibu-rum-en-pear",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi179455/blind-river-sauvignon-blanc",
@@ -7609,20 +6367,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi387202/sloane-s-gin-en-tonic",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303034393934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.59,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/sloane-s-gin-en-tonic",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi469408/bruce-jack-chenin-blanc",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363239343535?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -7740,69 +6484,12 @@
     "amountOfCriticReviews": 14
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi107160/ah-biologisch-wijnzuurkool",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303734363836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.39,
-    "unitSize": "520 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-biologisch-wijnzuurkool",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi489888/stelz-hard-seltzer-raspberry",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313237353532?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/stelz-hard-seltzer-raspberry",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi458972/la-cuvee-jolie-terre-de-providence-rose",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303733333936?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
     "price": 6.99,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/la-cuvee-jolie-terre-de-providence-rose",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi573688/jack-daniels-whiskey-en-coca-cola-zero-sugar",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303530353831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.99,
-    "unitSize": "330 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/jack-daniels-whiskey-en-coca-cola-zero-sugar",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi367114/arrogant-frog-rood-klein",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333343130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.99,
-    "unitSize": "0,375 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/arrogant-frog-rood-klein",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -7928,20 +6615,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi507858/leitz-motiv-riesling",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303130333830?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.99,
-    "unitSize": "75 cl",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/leitz-motiv-riesling",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi67726/warre-port-heritage-ruby",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383431383930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -7955,50 +6628,6 @@
     "grapeVariety": "Port Blend Red",
     "foodPairing": "Chocolate and Caramel",
     "amountOfCriticReviews": 6
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi553699/de-kuyper-passionfruit-martini-cocktail",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393332333435?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.99,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/de-kuyper-passionfruit-martini-cocktail",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi229529/captain-morgan-rum-en-cola",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303331353735?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.39,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/captain-morgan-rum-en-cola",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi553707/bobby-s-gin-en-tonic",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373631353438?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.09,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/bobby-s-gin-en-tonic",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi440712/porcupine-ridge-merlot",
@@ -8046,20 +6675,6 @@
     "amountOfCriticReviews": 15
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi481779/hoomark-wijn-cadeauzak-leaves",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313136393738?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 0.99,
-    "unitSize": "per stuk",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/hoomark-wijn-cadeauzak-leaves",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi228669/gracioso-secco-hugo-rose",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363433313439?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -8101,20 +6716,6 @@
     "grapeVariety": "Glera (Prosecco)",
     "foodPairing": "Pork",
     "amountOfCriticReviews": 4
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi515017/de-kuyper-margarita-0-alcoholvrij",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383335363137?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "200 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/de-kuyper-margarita-0-alcoholvrij",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi209979/antonin-rodet-bourgogne-chardonnay",
@@ -8175,34 +6776,6 @@
     "amountOfCriticReviews": 1
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi571834/stelz-mixed-moscow-mule",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303735303630?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/stelz-mixed-moscow-mule",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi572700/stelz-spritz-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303735303536?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.69,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/stelz-spritz-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi160826/fontanafredda-briccotondo-dolcetto-organic-wine",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393031363536?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -8232,35 +6805,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi508125/gordon-s-gin-alcoholvrij",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383235333638?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 16.99,
-    "unitSize": "0,7 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/gordon-s-gin-alcoholvrij",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Non-Alcoholic Spirit",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi560573/ish-gin-en-tonic-alcoholvrij",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303333313536?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.99,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ish-gin-en-tonic-alcoholvrij",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi563522/19-crimes-sparkling-white",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303131373930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -8274,20 +6818,6 @@
     "grapeVariety": "Chardonnay",
     "foodPairing": "Salads and Green Vegetables",
     "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi225294/wild-pig-merlot-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393631353739?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.29,
-    "unitSize": "1,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/wild-pig-merlot-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi435532/merinas-tempranillo-organic",
@@ -8379,68 +6909,12 @@
     "amountOfCriticReviews": 5
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi48333/passoa-orange-juice",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393435333031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.19,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/passoa-orange-juice",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi387206/hooghoudt-cocos-likorette",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353536313337?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 6.99,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/hooghoudt-cocos-likorette",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi553708/bobby-s-gin-en-tonic-pink",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393237383137?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.09,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/bobby-s-gin-en-tonic-pink",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi1453/conqueror-port-white",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393434363532?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
     "price": 7.19,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/conqueror-port-white",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi51601/jerez-sherry-887-cream",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50303232363339?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.29,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/jerez-sherry-887-cream",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -8464,35 +6938,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi455490/settesoli-pinot-grigio-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545237303537353839?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.89,
-    "unitSize": "2 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/settesoli-pinot-grigio-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi560447/malibu-strawberry-daiquiri",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393233353536?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/malibu-strawberry-daiquiri",
-    "criticScore": 89,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": 1
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi436400/hieron-montepulciano-d-abruzzo",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333353135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -8505,35 +6950,6 @@
     "style": "Red - Bold and Structured",
     "grapeVariety": "Montepulciano",
     "foodPairing": "Beef and Venison",
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi553706/stelz-hard-seltzer-tropical-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303636313539?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.69,
-    "unitSize": "4 x 0,25 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/stelz-hard-seltzer-tropical-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi557142/ketel-1-hard-lemonade-lemon-en-lime",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393631333732?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.19,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ketel-1-hard-lemonade-lemon-en-lime",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Hard Seltzer",
-    "grapeVariety": null,
-    "foodPairing": null,
     "amountOfCriticReviews": null
   },
   {
@@ -8602,34 +7018,6 @@
     "price": 6.99,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/origin-pure-cabernet-sauvignon-no-sulphites-added",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi51722/william-lawson-s-whisky-en-cola",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303335333831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/william-lawson-s-whisky-en-cola",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi229962/flugel-wodka-mini-10-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373636393835?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.89,
-    "unitSize": "10 x 2 cl",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/flugel-wodka-mini-10-pack",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -8772,20 +7160,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi459552/arrogant-frog-blance-bag-in-box",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333363532?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 21.79,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/arrogant-frog-blance-bag-in-box",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi209928/torres-natureo-rosado-alcoholvrij",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393536363134?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -8799,21 +7173,6 @@
     "grapeVariety": "Rose Blend",
     "foodPairing": "Tomato-based Dishes",
     "amountOfCriticReviews": 3
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi573687/absolut-vodka-sprite",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303530353639?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/absolut-vodka-sprite",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi377684/calvet-ice-chardonnay-demi-sec",
@@ -9039,40 +7398,12 @@
     "amountOfCriticReviews": 24
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi576685/gordon-s-gin-en-tonic-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303738383938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 6.87,
-    "unitSize": "4 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/gordon-s-gin-en-tonic-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi560569/scarlet-mojito-alcoholvrij",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303131373934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
     "price": 3.99,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/scarlet-mojito-alcoholvrij",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi459882/arrogant-frog-rouge-bag-in-box",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333363530?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 21.79,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/arrogant-frog-rouge-bag-in-box",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -9126,20 +7457,6 @@
     "amountOfCriticReviews": 2
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi519125/viper-hard-seltzer-variety-6-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303534383435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.99,
-    "unitSize": "6 x 0,33 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/viper-hard-seltzer-variety-6-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi517843/cuvee-benedikt-cotes-du-rhone",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383535343435?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
@@ -9182,21 +7499,6 @@
     "grapeVariety": "Southern Rhone White Blend",
     "foodPairing": "Chicken and Turkey",
     "amountOfCriticReviews": 64
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi468851/faustino-crianza",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313138373835?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.99,
-    "unitSize": "75 cl",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/faustino-crianza",
-    "criticScore": 88,
-    "userRating": 3,
-    "amountOfUserRatings": 37,
-    "style": "Red - Savory and Classic",
-    "grapeVariety": "Tempranillo",
-    "foodPairing": "Lamb",
-    "amountOfCriticReviews": 59
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi570663/sella-en-mosca-raim-cannonau",
@@ -9273,21 +7575,6 @@
     "amountOfCriticReviews": 164
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi173528/masottina-prosecco",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383239363833?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.29,
-    "unitSize": "75 cl",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/masottina-prosecco",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Sparkling - Fresh and Youthful",
-    "grapeVariety": "Glera (Prosecco)",
-    "foodPairing": "Pork",
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi486039/ah-excellent-selectie-champagne-brut-premier-cru",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373030343135?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary",
@@ -9300,50 +7587,6 @@
     "style": null,
     "grapeVariety": null,
     "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi222164/chateau-haut-versann-saint-emilion",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303333363838?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 6.65,
-    "unitSize": "375 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/chateau-haut-versann-saint-emilion",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi440928/rodet-macon-villages-wit",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4b525436303032353933?revLabel=4&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 7.29,
-    "unitSize": "375 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/rodet-macon-villages-wit",
-    "criticScore": 87,
-    "userRating": 3,
-    "amountOfUserRatings": 12,
-    "style": "White - Buttery and Complex",
-    "grapeVariety": "Chardonnay",
-    "foodPairing": "Chicken and Turkey",
-    "amountOfCriticReviews": 12
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi441008/sangre-de-toro-rood",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393935323133?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.99,
-    "unitSize": "375 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/sangre-de-toro-rood",
-    "criticScore": 86,
-    "userRating": 3.5,
-    "amountOfUserRatings": 162,
-    "style": "Red - Rich and Intense",
-    "grapeVariety": "Carinena - Garnacha",
-    "foodPairing": "Lamb",
-    "amountOfCriticReviews": 77
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi160460/fontanafredda-barolo",
@@ -9504,51 +7747,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi158731/sonnema-berenburg-en-cola",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393237333635?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.39,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/sonnema-berenburg-en-cola",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Liqueur - Herb - Spice",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi478051/peachtree-blossom",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363539323637?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.99,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/peachtree-blossom",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Liqueur - Fruit",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi481776/white-claw-raspberry",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303831303233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.39,
-    "unitSize": "330 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/white-claw-raspberry",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Hard Seltzer",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi160823/marques-casa-concha-chardonnay",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353738343239?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
@@ -9638,21 +7836,6 @@
     "amountOfCriticReviews": 5
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi459975/lavis-classici-pinot-grigio",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333383136?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 5.89,
-    "unitSize": "0,375 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/lavis-classici-pinot-grigio",
-    "criticScore": 87,
-    "userRating": 4,
-    "amountOfUserRatings": null,
-    "style": "White - Green and Flinty",
-    "grapeVariety": "Pinot Grigio",
-    "foodPairing": "White Fish",
-    "amountOfCriticReviews": 9
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi549462/the-crossings-sauvignon-blanc",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393830353834?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -9698,36 +7881,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi143614/passoa-passion-fruits",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393031383836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.29,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/passoa-passion-fruits",
-    "criticScore": 88,
-    "userRating": 4,
-    "amountOfUserRatings": 2,
-    "style": "Liqueur - Fruit",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": 1
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi198856/berentzen-apfelkorn",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303634303034?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.19,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/berentzen-apfelkorn",
-    "criticScore": null,
-    "userRating": 3,
-    "amountOfUserRatings": 2,
-    "style": "Schnapps",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi435803/barros-ruby-port",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353937383732?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
@@ -9740,21 +7893,6 @@
     "style": "Dessert - Rich and Warming",
     "grapeVariety": "Port Blend Red",
     "foodPairing": "Chocolate and Caramel",
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi553701/smirnoff-ice-raspberry",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393332383234?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.25,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/smirnoff-ice-raspberry",
-    "criticScore": null,
-    "userRating": 4,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
     "amountOfCriticReviews": null
   },
   {
@@ -9785,35 +7923,6 @@
     "style": null,
     "grapeVariety": null,
     "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi497952/gordon-s-gin-en-tonic-alcoholvrij",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303537333336?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.99,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/gordon-s-gin-en-tonic-alcoholvrij",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi574215/peachtree-peach-on-the-beach",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303735313335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.19,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/peachtree-peach-on-the-beach",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi132888/vallee-loire-muscadet-de-sevre-en-maine-sur-lie",
@@ -9888,48 +7997,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi577860/ah-merlot-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303836383836?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.7,
-    "unitSize": "4 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-merlot-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi577876/ah-chili-huiswijn-stevig-rood-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303930303937?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.7,
-    "unitSize": "4 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-chili-huiswijn-stevig-rood-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi381941/smaakt-wijnsteenbakpoeder",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313136313534?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.79,
-    "unitSize": "150 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/smaakt-wijnsteenbakpoeder",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi69576/dow-s-fine-white-port",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373834393835?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -9974,21 +8041,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi158732/safari-senza",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313134323035?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 7.69,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/safari-senza",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Liqueur - Fruit",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi387123/georges-duboeuf-brouilly",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50323336343833?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -10002,20 +8054,6 @@
     "grapeVariety": "Gamay",
     "foodPairing": "Chicken and Turkey",
     "amountOfCriticReviews": 106
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi384439/hoomark-wijnfleszak",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303536363434?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 0.99,
-    "unitSize": "per stuk",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/hoomark-wijnfleszak",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi200563/pongracz-sparkling-brut",
@@ -10063,20 +8101,6 @@
     "amountOfCriticReviews": 23
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi367455/arrogant-frog-wit-klein",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333363430?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 4.99,
-    "unitSize": "0,375 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/arrogant-frog-wit-klein",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi401926/zuccardi-brazos-chardonnay",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303639323238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -10113,20 +8137,6 @@
     "price": 12.99,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/pere-ventura-colleccion-privada-cava-res-brut-rose",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi560575/ish-mojito-alcoholvrij",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303332343233?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.99,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ish-mojito-alcoholvrij",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -10176,49 +8186,6 @@
     "grapeVariety": null,
     "foodPairing": null,
     "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi553697/baileys-hazelnut",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393237333134?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 13.59,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/baileys-hazelnut",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Liqueur - Cream",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi578433/viper-variety-4-pack-voordeel-pakket",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303935313839?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 13.72,
-    "unitSize": "2 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/viper-variety-4-pack-voordeel-pakket",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi69558/los-cisnes-sherry-fino",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303634323536?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.99,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/los-cisnes-sherry-fino",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi104099/rawson-s-retreat-merlot",
@@ -10355,34 +8322,6 @@
     "amountOfCriticReviews": 28
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi496475/de-kuyper-fizzy-favorites-passionfruit",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393338333136?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.19,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/de-kuyper-fizzy-favorites-passionfruit",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi111154/ah-witte-wijnazijn-dragon",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303939363534?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.39,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-witte-wijnazijn-dragon",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi186106/symington-altano-branco",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333373236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -10398,35 +8337,6 @@
     "amountOfCriticReviews": 50
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi466988/hooghoudt-redberry-sour",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353535393833?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 6.99,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/hooghoudt-redberry-sour",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi557143/ketel-1-hard-lemonade-strawberry-en-watermelon",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393439323932?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.19,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ketel-1-hard-lemonade-strawberry-en-watermelon",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Hard Seltzer",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi447368/diane-de-frion-champange-brut",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303436313030?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -10440,20 +8350,6 @@
     "grapeVariety": "Champagne Blend",
     "foodPairing": "Shellfish, Crab and Lobster",
     "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi575844/ish-paloma-alcoholfree",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303734353031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.99,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ish-paloma-alcoholfree",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi200564/pongracz-rose",
@@ -10484,20 +8380,6 @@
     "grapeVariety": "White Blend",
     "foodPairing": "Shellfish, Crab and Lobster",
     "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi577925/ah-sauvignon-blanc-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303930313039?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.7,
-    "unitSize": "per stuk",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-sauvignon-blanc-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi69506/catena-chardonnay",
@@ -10543,21 +8425,6 @@
     "grapeVariety": "Port Blend Red",
     "foodPairing": "Chocolate and Caramel",
     "amountOfCriticReviews": 27
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi198733/puschkin-red",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393537333931?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 6.49,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/puschkin-red",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Vodka - Flavored",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi371269/gassiot-ruby-port",
@@ -10690,20 +8557,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi496147/le-bijou-le-chic-pays-d-oc-rose-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303537333333?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.99,
-    "unitSize": "1,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/le-bijou-le-chic-pays-d-oc-rose-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi516208/gr-vin-stellenbosch-rose",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303634343635?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -10731,20 +8584,6 @@
     "grapeVariety": "Cinsault - Grenache - Syrah",
     "foodPairing": "Chicken and Turkey",
     "amountOfCriticReviews": 53
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi492372/origin-merlot",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373134353735?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.29,
-    "unitSize": "2,25 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/origin-merlot",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi228742/trapiche-malbec",
@@ -10775,21 +8614,6 @@
     "grapeVariety": "Carmenere",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 13
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi494465/viper-hard-seltzer-lime",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393239303036?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "330 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/viper-hard-seltzer-lime",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Hard Seltzer",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi93764/alamos-cabernet-sauvignon",
@@ -10836,21 +8660,6 @@
     "amountOfCriticReviews": 26
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi459511/fizzy-peachtree",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393338353132?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.19,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/fizzy-peachtree",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi456862/curvos-alvarinho",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313032373130?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -10864,21 +8673,6 @@
     "grapeVariety": "Albarino (Alvarinho)",
     "foodPairing": "Shellfish, Crab and Lobster",
     "amountOfCriticReviews": 17
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi572701/de-kuyper-sex-on-the-beach-cocktail",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303439383635?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.99,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/de-kuyper-sex-on-the-beach-cocktail",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi69041/le-monferrine-asti",
@@ -11014,35 +8808,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi519070/bozu-hard-ice-tea-lemon-ginger",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393435343432?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.09,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/bozu-hard-ice-tea-lemon-ginger",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi160463/thierry-vaute-muscat-de-beaumes-de-venise",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50303236383030?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.99,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/thierry-vaute-muscat-de-beaumes-de-venise",
-    "criticScore": 89,
-    "userRating": 3,
-    "amountOfUserRatings": 13,
-    "style": "Dessert - Lush and Balanced",
-    "grapeVariety": "Muscat Blanc a Petits Grains",
-    "foodPairing": "Fruit-based Desserts",
-    "amountOfCriticReviews": 27
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi224937/estrella-frizante-rosado",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50313731353933?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -11103,35 +8868,6 @@
     "amountOfCriticReviews": 17
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi574222/absolut-passionfruit-martini",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303332313936?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/absolut-passionfruit-martini",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi577926/ah-suid-afrika-vol-en-droog-4x",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303930313038?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.7,
-    "unitSize": "per stuk",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-suid-afrika-vol-en-droog-4x",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi161047/kopke-port-lbv",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50303534363230?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -11162,21 +8898,6 @@
     "grapeVariety": "Port Blend Red",
     "foodPairing": "Chocolate and Caramel",
     "amountOfCriticReviews": 6
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi551409/de-kuyper-pina-colada-cocktail",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393332333437?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.99,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/de-kuyper-pina-colada-cocktail",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi159878/moselland-auslese",
@@ -11279,64 +9000,6 @@
     "grapeVariety": "Syrah",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 53
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi135954/gonzalez-byass-nectar-pedro-ximenez-dulce",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303832303230?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.29,
-    "unitSize": "0,375 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/gonzalez-byass-nectar-pedro-ximenez-dulce",
-    "criticScore": 91,
-    "userRating": 4,
-    "amountOfUserRatings": 27,
-    "style": "Dessert - Caramelized and Sticky",
-    "grapeVariety": "Pedro Ximenez",
-    "foodPairing": "Fruit-based Desserts",
-    "amountOfCriticReviews": 21
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi533228/viper-hard-seltzer-peach",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393239303038?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "330 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/viper-hard-seltzer-peach",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi127243/eliterna-boerenjongens",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363134323539?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 6.39,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/eliterna-boerenjongens",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi69575/dow-s-old-tawny-port-10-years",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239363931323336?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 25.29,
-    "unitSize": "75 cl",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/dow-s-old-tawny-port-10-years",
-    "criticScore": 89,
-    "userRating": 3.5,
-    "amountOfUserRatings": 22,
-    "style": "Dessert - Rich and Warming",
-    "grapeVariety": "Port Blend Red",
-    "foodPairing": "Chocolate and Caramel",
-    "amountOfCriticReviews": 20
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi178309/boschkloof-chardonnay",
@@ -11442,20 +9105,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi584728/settesoli-pinot-grigio-6-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313234383537?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 26.95,
-    "unitSize": "6 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/settesoli-pinot-grigio-6-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi107610/piper-heidsieck-brut-champagne",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303131303430?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -11469,120 +9118,6 @@
     "grapeVariety": "Champagne Blend",
     "foodPairing": "Shellfish, Crab and Lobster",
     "amountOfCriticReviews": 51
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi426531/sera-gevulde-wijnbladeren",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393534333135?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.99,
-    "unitSize": "300 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/sera-gevulde-wijnbladeren",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi233805/ah-witte-wijnglazen-model-provence",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383331303432?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.99,
-    "unitSize": "2 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-witte-wijnglazen-model-provence",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi514586/ah-kurkentrekker",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383731343934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.99,
-    "unitSize": "per stuk",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-kurkentrekker",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi574205/welmoed-shiraz-pinotage",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303935323334?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.99,
-    "unitSize": "1,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/welmoed-shiraz-pinotage",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Red - Bold and Structured",
-    "grapeVariety": "Pinotage - Shiraz",
-    "foodPairing": "Lamb",
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi571765/ketel-1-hard-lemonade-ginger-en-blood-orange",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303633383239?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.19,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ketel-1-hard-lemonade-ginger-en-blood-orange",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Hard Seltzer",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi572698/viper-hard-seltzer-variety-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303534383437?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.15,
-    "unitSize": "4 x 0,33 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/viper-hard-seltzer-variety-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi577877/ah-halfzoete-suid-afrikaanse-wit-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303930303938?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.7,
-    "unitSize": "4 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-halfzoete-suid-afrikaanse-wit-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi115256/ah-gekookte-wijnzuurkool-met-spek",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393437323337?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.49,
-    "unitSize": "520 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-gekookte-wijnzuurkool-met-spek",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi124563/mommessin-beaujolais-villages-vielles-vignes",
@@ -11651,34 +9186,6 @@
     "price": 4.79,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/zagazoe-jack-the-amazing-lama-party-bubbles",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi545370/loft-house-pink-gin-alcoholvrij",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303130333831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 17.99,
-    "unitSize": "70 cl",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/loft-house-pink-gin-alcoholvrij",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi556824/crodino-rosso-6-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313238303335?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.89,
-    "unitSize": "1,05 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/crodino-rosso-6-pack",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -11821,34 +9328,6 @@
     "amountOfCriticReviews": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi583292/the-stillery-pornstar-martini",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303932323933?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.99,
-    "unitSize": "120 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/the-stillery-pornstar-martini",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi583294/breezer-passionfruit-mango",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303532373139?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.49,
-    "unitSize": "275 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/breezer-passionfruit-mango",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi209589/les-courtelles-picpoul-de-pinet",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373233343236?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -11878,21 +9357,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi459933/chablissiene-la-pierrelee",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333343633?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.29,
-    "unitSize": "0,375 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/chablissiene-la-pierrelee",
-    "criticScore": 88,
-    "userRating": 3.5,
-    "amountOfUserRatings": 48,
-    "style": "White - Green and Flinty",
-    "grapeVariety": "Chardonnay",
-    "foodPairing": "Shellfish, Crab and Lobster",
-    "amountOfCriticReviews": 62
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi570712/constantia-uitsig-semillon",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303532353934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -11906,50 +9370,6 @@
     "grapeVariety": "Semillon",
     "foodPairing": "Goats' Cheese and Feta",
     "amountOfCriticReviews": 16
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi69556/los-cisnes-cream-sherry",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303634323435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.99,
-    "unitSize": "1 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/los-cisnes-cream-sherry",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Dessert - Lush and Balanced",
-    "grapeVariety": "Sherry Blend",
-    "foodPairing": "Fruit-based Desserts",
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi519067/apenshot-likorette",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383434373337?revLabel=3&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.99,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/apenshot-likorette",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Liqueur - Fruit",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi574225/white-claw-hard-seltzer-passion-fruit-variety-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303831303536?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.49,
-    "unitSize": "4 x 0,33 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/white-claw-hard-seltzer-passion-fruit-variety-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi61131/moet-en-chandon-champagne-nectar-imperial",
@@ -12069,35 +9489,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi555393/cotes-de-provence-rose-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393537353732?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 18.49,
-    "unitSize": "2,25 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/cotes-de-provence-rose-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi574204/welmoed-chenin-blanc",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303736323036?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.99,
-    "unitSize": "1,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/welmoed-chenin-blanc",
-    "criticScore": null,
-    "userRating": 2.5,
-    "amountOfUserRatings": 9,
-    "style": "White - Buttery and Complex",
-    "grapeVariety": "Chenin Blanc",
-    "foodPairing": "Cheddar and Gruyere",
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi2696/sandeman-sherry-fino",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353732393634?revLabel=2&rendition=200x200_JPG_Q85&fileType=binary",
@@ -12111,21 +9502,6 @@
     "grapeVariety": "Palomino",
     "foodPairing": "Cheddar and Gruyere",
     "amountOfCriticReviews": 3
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi163537/la-guita-sherry-manzanilla",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303439373538?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 5.99,
-    "unitSize": "0,375 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/la-guita-sherry-manzanilla",
-    "criticScore": 89,
-    "userRating": 4,
-    "amountOfUserRatings": 18,
-    "style": "White - Dry and Nutty",
-    "grapeVariety": "Palomino",
-    "foodPairing": "Cheddar and Gruyere",
-    "amountOfCriticReviews": 20
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi69034/veuve-amiot-demi-sec",
@@ -12158,20 +9534,6 @@
     "amountOfCriticReviews": 16
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi574295/viper-hard-seltzer-tropical-cherry-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303534383436?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.15,
-    "unitSize": "1,32 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/viper-hard-seltzer-tropical-cherry-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi500436/grain-d-azur-provence-rose",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383437393732?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -12200,35 +9562,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi169916/dourthe-sauternes-grands-terroirs",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383631393834?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.09,
-    "unitSize": "375 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/dourthe-sauternes-grands-terroirs",
-    "criticScore": 93,
-    "userRating": 4,
-    "amountOfUserRatings": 7,
-    "style": "Dessert - Lush and Balanced",
-    "grapeVariety": "Bordeaux Blend White",
-    "foodPairing": "Blue Cheeses",
-    "amountOfCriticReviews": 1
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi577922/ah-france-rood-fruitig-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303930313031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.7,
-    "unitSize": "4 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-france-rood-fruitig-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi69300/masi-costasera-amarone-classico",
     "alternativeUrls": [
       "https://www.ah.nl/producten/product/wi178255/masi-costasera-amarone-classico"
@@ -12244,21 +9577,6 @@
     "grapeVariety": "Valpolicella Blend",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 120
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi178349/tio-pepe-sherry-fino",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_434d50313838343031?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 7.99,
-    "unitSize": "0,375 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/tio-pepe-sherry-fino",
-    "criticScore": 89,
-    "userRating": 3.5,
-    "amountOfUserRatings": 46,
-    "style": "White - Dry and Nutty",
-    "grapeVariety": "Palomino",
-    "foodPairing": "Cheddar and Gruyere",
-    "amountOfCriticReviews": 37
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi171581/chateau-juguet-saint-emillion-grand-cru",
@@ -12395,21 +9713,6 @@
     "amountOfCriticReviews": 2
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi574224/smirnoff-ice-tropical",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393630373834?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.29,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/smirnoff-ice-tropical",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi69267/planeta-la-segreta-bianco",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333353235?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -12423,20 +9726,6 @@
     "grapeVariety": "White Blend",
     "foodPairing": "White Fish",
     "amountOfCriticReviews": 71
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi524862/ah-wildzwijn-biefstuk-met-mosterdmarinade",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393630333337?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.32,
-    "unitSize": "ca. 250 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-wildzwijn-biefstuk-met-mosterdmarinade",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi228738/trapiche-oak-cask-chardonnay",
@@ -12541,20 +9830,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi233804/ah-rode-wijnglazen-model-provence",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383331303431?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 11.99,
-    "unitSize": "2 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-rode-wijnglazen-model-provence",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi374429/j-b-adam-aoc-cremant-d-alsace-brut",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383333363831?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -12568,21 +9843,6 @@
     "grapeVariety": "White Blend",
     "foodPairing": "Shellfish, Crab and Lobster",
     "amountOfCriticReviews": 4
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi97405/domaine-du-vieux-pigeonnier-muscat-de-beaumes-de-venise",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383330323632?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 12.29,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/domaine-du-vieux-pigeonnier-muscat-de-beaumes-de-venise",
-    "criticScore": 88,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Dessert - Lush and Balanced",
-    "grapeVariety": "Muscat Blanc a Petits Grains",
-    "foodPairing": "Fruit-based Desserts",
-    "amountOfCriticReviews": 2
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi421907/mirabeau-etoile-rose",
@@ -12628,20 +9888,6 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi583293/the-stillery-amaretto-sour",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313131303630?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.99,
-    "unitSize": "120 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/the-stillery-amaretto-sour",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi61132/veuve-clicquot-brut",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303231333738?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -12655,21 +9901,6 @@
     "grapeVariety": "Champagne Blend",
     "foodPairing": "Shellfish, Crab and Lobster",
     "amountOfCriticReviews": 57
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi69027/moet-en-chandon-brut-imperial",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313239313534?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 34.65,
-    "unitSize": "0,375 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/moet-en-chandon-brut-imperial",
-    "criticScore": 88,
-    "userRating": 3.5,
-    "amountOfUserRatings": 284,
-    "style": "Sparkling - Complex and Traditional",
-    "grapeVariety": "Champagne Blend",
-    "foodPairing": "Shellfish, Crab and Lobster",
-    "amountOfCriticReviews": 51
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi93250/codorniu-seleccion-raventos-brut",
@@ -12717,40 +9948,12 @@
     "amountOfCriticReviews": 3
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi583604/ah-duo-pate-wildzwijn-en-eend-met-port",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313230333234?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.99,
-    "unitSize": "ca. 130 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-duo-pate-wildzwijn-en-eend-met-port",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi583228/not-guilty-pinot-grigio",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313235393638?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
     "price": 7.49,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/not-guilty-pinot-grigio",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi577930/ah-espana-soepel-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303930313035?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.7,
-    "unitSize": "4 stuks",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-espana-soepel-4-pack",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -12786,21 +9989,6 @@
     "style": null,
     "grapeVariety": null,
     "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi576199/cune-afrutado",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303832313234?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 7.99,
-    "unitSize": "75 cl",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/cune-afrutado",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "White - Buttery and Complex",
-    "grapeVariety": "Rioja White Blend",
-    "foodPairing": "Chicken and Turkey",
-    "amountOfCriticReviews": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi161982/domaine-grand-tinel-chateauneuf-du-pape-rouge",
@@ -13057,48 +10245,6 @@
     "amountOfCriticReviews": 423
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi581633/settesoli-de-siciliaanse-zon-in-je-glas",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313130323635?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 22.46,
-    "unitSize": "per pakket",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/settesoli-de-siciliaanse-zon-in-je-glas",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi195652/ah-wijntas-6-vaks",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545237303537353930?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 0.99,
-    "unitSize": "per stuk",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-wijntas-6-vaks",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi468491/brabantia-tasty-kurkentrekker",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239353635313038?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.25,
-    "unitSize": "per stuk",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/brabantia-tasty-kurkentrekker",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi583227/viverty-sparkling-orange-spritz",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313238343434?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -13187,49 +10333,6 @@
     "amountOfCriticReviews": 4
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi583285/bozu-hard-iced-tea-peach-4-pack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313139373036?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 8.29,
-    "unitSize": "4 x 0,25 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/bozu-hard-iced-tea-peach-4-pack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi583299/licor-43-chocolate-delight",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239393537323632?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 13.59,
-    "unitSize": "0,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/licor-43-chocolate-delight",
-    "criticScore": 87,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Liqueur - Chocolate",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": 2
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi549423/adventuros-nuggets-zwijn-wildsmaak",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303332343433?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.09,
-    "unitSize": "90 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/adventuros-nuggets-zwijn-wildsmaak",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi365924/sarmentino-sauvignon-blanc",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239383430383338?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -13305,54 +10408,12 @@
     "foodPairing": null
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi475973/ah-vol-en-droge-zuid-afrikaanse-wit-wijntap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303437343833?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-vol-en-droge-zuid-afrikaanse-wit-wijntap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi401919/ah-fris-en-droge-zuid-afrikaanse-rose-tap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303437343835?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 10.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-fris-en-droge-zuid-afrikaanse-rose-tap",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi34347/jerez-sherry-medium",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303734323435?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
     "price": 4.55,
     "unitSize": "0,75 l",
     "wineSearcherUrl": "https://www.wine-searcher.com/find/jerez-sherry-medium",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi509392/ah-vol-en-halfzoete-zuid-afrikaanse-wit-tap",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303437343933?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 9.99,
-    "unitSize": "3 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-vol-en-halfzoete-zuid-afrikaanse-wit-tap",
     "criticScore": null,
     "userRating": null,
     "amountOfUserRatings": null,
@@ -13436,20 +10497,6 @@
     "amountOfCriticReviews": 43
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi163562/ah-italiaanse-witte-wijn-azijn",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303939363438?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 2.19,
-    "unitSize": "250 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/ah-italiaanse-witte-wijn-azijn",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi178176/moet-en-chandon-champagne-nectar-imperial-rose",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373232393737?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -13495,21 +10542,6 @@
     "amountOfCriticReviews": 18
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi178757/flugel-wodka-mini",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_43545239373636393834?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 1.09,
-    "unitSize": "20 ml",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/flugel-wodka-mini",
-    "criticScore": null,
-    "userRating": 0,
-    "amountOfUserRatings": null,
-    "style": "Premixed Drinks",
-    "grapeVariety": null,
-    "foodPairing": null,
-    "amountOfCriticReviews": null
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi203398/penfolds-bin-28-shiraz",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303236323238?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
@@ -13538,20 +10570,6 @@
     "grapeVariety": "Cabernet - Syrah/Shiraz",
     "foodPairing": "Beef and Venison",
     "amountOfCriticReviews": 27
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi352040/wijngaard-affine-zwarte-peper",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313138393632?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 3.79,
-    "unitSize": "150 g",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/wijngaard-affine-zwarte-peper",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   },
   {
     "productUrl": "https://www.ah.nl/producten/product/wi374128/valdivieso-single-vineyard-chardonnay",
@@ -13614,21 +10632,6 @@
     "amountOfCriticReviews": 10
   },
   {
-    "productUrl": "https://www.ah.nl/producten/product/wi413393/chat-lilian-ladouys-st-estephe",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130313136323131?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 32.99,
-    "unitSize": "75 cl",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/chat-lilian-ladouys-st-estephe",
-    "criticScore": 90,
-    "userRating": 3.5,
-    "amountOfUserRatings": 281,
-    "style": "Red - Savory and Classic",
-    "grapeVariety": "Bordeaux Blend Red",
-    "foodPairing": "Beef and Venison",
-    "amountOfCriticReviews": 310
-  },
-  {
     "productUrl": "https://www.ah.nl/producten/product/wi416461/planeta-la-segreta-nero-d-avola",
     "alternativeUrls": [],
     "imgSrc": "https://static.ah.nl/__assets/zoeken/assets/f2d6fe76.svg",
@@ -13685,19 +10688,5 @@
     "grapeVariety": "Sauvignon Blanc",
     "foodPairing": "Meaty and Oily Fish",
     "amountOfCriticReviews": 12
-  },
-  {
-    "productUrl": "https://www.ah.nl/producten/product/wi485678/riporta-primitivo-en-sangiovese-giftpack",
-    "alternativeUrls": [],
-    "imgSrc": "https://static.ah.nl/dam/product/AHI_4354523130303633313934?revLabel=1&rendition=200x200_JPG_Q85&fileType=binary",
-    "price": 16.99,
-    "unitSize": "1,5 l",
-    "wineSearcherUrl": "https://www.wine-searcher.com/find/riporta-primitivo-en-sangiovese-giftpack",
-    "criticScore": null,
-    "userRating": null,
-    "amountOfUserRatings": null,
-    "style": null,
-    "grapeVariety": null,
-    "foodPairing": null
   }
 ]
