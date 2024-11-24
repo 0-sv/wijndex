@@ -115,7 +115,7 @@ export default function WineRecommendations({
               language={language}
             />
           ))}
-          <EmailSignupCard />
+          <EmailSignupCard language={language} />
           {sortedAndFilteredWines.slice(3, displayCount).map((wine, index) => (
             <WineCard
               key={wine.productUrl}
