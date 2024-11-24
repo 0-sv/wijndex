@@ -9,6 +9,7 @@ export default function WineRecommendations({
   wineType,
   searchQuery,
   sortBy,
+  language,
   onGrapeVarietiesLoaded,
 }) {
   const [wines, setWines] = useState([]);
@@ -111,6 +112,7 @@ export default function WineRecommendations({
               wine={wine}
               index={index + 1}
               setSelectedImage={setSelectedImage}
+              language={language}
             />
           ))}
           <EmailSignupCard />
@@ -120,6 +122,7 @@ export default function WineRecommendations({
               wine={wine}
               index={index + 4}
               setSelectedImage={setSelectedImage}
+              language={language}
             />
           ))}
           {sortedAndFilteredWines.length >= displayCount && (
