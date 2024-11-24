@@ -19,19 +19,24 @@ export default function NavBar({
   grapeVarieties
 }) {
   const searchRef = useRef(null);
+  const menuRef = useRef(null);
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Close search suggestions when clicking outside
+  // Close search suggestions and menu when clicking outside
   useEffect(() => {
     function handleClickOutside(event) {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
         setShowSuggestions(false);
       }
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsMenuOpen(false);
+      }
     }
 
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [searchRef]);
+  }, [searchRef, menuRef]);
 
   return (
     <nav className="w-full bg-white dark:bg-gray-800 shadow-md">

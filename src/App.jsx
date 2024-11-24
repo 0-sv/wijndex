@@ -12,7 +12,6 @@ function App() {
   const [sortBy, setSortBy] = useState('score'); // 'score' or 'value'
   const [grapeVarieties, setGrapeVarieties] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
-  const menuRef = useRef(null);
   const [showTips, setShowTips] = useState(() => {
     return !localStorage.getItem('tipsShown');
   });
